@@ -1,0 +1,82 @@
+body{
+	background-color:#ffffff;
+	color:black;
+	font-size:12px;
+}
+table{
+	border-collapse: collapse;
+	border-color:#999;
+}
+a:link{
+	color:black;
+	text-decoration: none;
+}
+a:visited{
+	color:black;
+	text-decoration: none;
+}
+a:hover{
+	color:gray;
+	text-decoration: none;
+}
+td{
+	color:black;
+	vertical-align:middle;
+	text-align:left;
+	white-space:nowrap;
+}
+th{
+	border-top:1px solid gray;
+	white-space:nowrap;
+}
+img{
+	border:none;
+}
+.clr{
+	clear:both;
+}
+.left, .fleft{
+	float:left;
+}
+
+.todayninzu{
+	clear:both;
+	font-size:12px;
+	font-weight:bold;
+	color:#00f;
+}
+.update{
+	font-size:11px;
+	color:#333;
+}
+.name{
+	color:black;
+	font-size:12px;
+	font-weight:bold;
+}
+.time{
+	font-size:11px;
+	text-align:right;
+}
+.new{
+	color:#f00;
+}
+.red{
+	color:#f00;
+}
+.redb{
+	color:red;
+	font-weight:bold;
+	text-align:right;
+}
+.gsyosai{
+	font-size:11px;
+}
+.white{
+	color:#fff;;
+}
+.greg td {
+	border:1px solid #ccc;
+	text-align:center !important;
+	padding:5px;
+}

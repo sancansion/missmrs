@@ -1,0 +1,195 @@
+
+/*  MissMrs
+--------------------------------------------------------------------------*/
+body{
+margin:0;
+padding:0;
+background:#fff;
+border-style:none;
+font-family:Arial, Helvetica, sans-serif;
+min-width:1200px;
+_display:inline;
+_zoom:1;
+}
+
+a:link{
+color:#000;
+}
+
+a:visited{
+color:#000;
+}
+
+a:hover{
+color:#000;
+text-decoration:none;
+}
+
+a:hover img{
+opacity:0.6;
+filter:alpha(opacity=60);
+-ms-filter: ¡Èalpha( opacity=60 )¡É;
+}
+
+#header{
+width:100%;
+height:605px;
+background:url(../img/header.jpg) no-repeat center top;
+text-align:center;
+text-indent:-9999px;
+}
+
+#header_area{
+margin:0;
+padding:20px 0;
+width:100%;
+background:#ffc2e8;
+text-align:center;
+overflow:hidden;
+}
+
+#p01{
+margin:20px auto;
+width:847px;
+height:339px;
+background:url(../img/p01.jpg) no-repeat;
+text-align:center;
+text-indent:-9999px;
+}
+
+#p02{
+margin:20px auto;
+width:1200px;
+height:770px;
+background:url(../img/p02.jpg) no-repeat;
+text-align:center;
+text-indent:-9999px;
+}
+
+#p_area{
+margin:0 auto 20px;
+width:960px;
+overflow:hidden;
+}
+
+#p03{
+float:left;
+margin:0 51px 0 0;
+width:286px;
+height:185px;
+text-align:center;
+}
+
+#p04{
+float:left;
+margin:0 51px 0 0;
+width:286px;
+height:185px;
+text-align:center;
+}
+
+#p05{
+float:left;
+margin:0;
+width:286px;
+height:185px;
+text-align:center;
+}
+
+#p06{
+margin:20px auto;
+width:948px;
+height:261px;
+background:url(../img/p06.jpg) no-repeat;
+text-align:center;
+text-indent:-9999px;
+}
+
+#p07{
+margin:20px auto;
+width:948px;
+height:771px;
+background:url(../img/p07.jpg) no-repeat;
+text-align:center;
+text-indent:-9999px;
+}
+
+#p08{
+margin:20px auto;
+padding:10px 0 30px;
+width:100%;
+background:#fffae3;
+text-align:center;
+}
+
+#table{
+margin:0 auto 10px;
+width:800px;
+text-align:center;
+border-collapse:collapse;
+}
+
+#table th{
+margin:0;
+padding:10px 0;
+width:200px;
+text-align:center;
+color:#333;
+border:1px solid #b9b9b9;
+}
+
+#table td{
+margin:0;
+padding:10px 0 10px 20px;
+width:580px;
+text-align:left;
+color:#333;
+border:1px solid #b9b9b9;
+}
+
+#table input{
+padding:5px;
+}
+
+#table select{
+padding:5px;
+}
+
+.submit{
+width:800px;
+height:50px;
+overflow:hidden;
+}
+
+.mar20{
+margin:20px 0;
+}
+
+.mar30{
+margin:30px 0;
+}
+
+.mar40{
+margin:40px 0;
+}
+
+.mar50{
+margin:50px 0;
+}
+
+.mar60{
+margin:60px 0;
+}
+
+#gototop{
+margin:20px auto 0;
+width:1000px;
+text-align:right;
+}
+
+#footer{
+padding:30px 0;
+width:100%;
+background:#111;
+text-align:center;
+}

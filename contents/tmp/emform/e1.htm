@@ -1,0 +1,420 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<title>EZWeb1 絵文字入力</title>
+<script type="text/javascript">
+<!--
+	function em(vi) {
+		document.yomi.yomi2.value = vi;
+	}
+	function em2(vi2) {
+		document.moji.moji2.value = vi2;
+		document.moji.moji2.select();
+
+		var myField = window.parent.opener.document.moji.comment;
+		//IE support
+		if (document.selection) {
+			myField.focus();
+			sel = window.parent.opener.document.selection.createRange();
+			sel.text = vi2;
+			self.focus();
+		}
+		//MOZILLA/NETSCAPE support
+		else if (myField.selectionStart || myField.selectionStart == '0') {
+			var startPos = myField.selectionStart;
+			var endPos = myField.selectionEnd;
+			myField.value = myField.value.substring(0, startPos)
+							+ vi2
+							+ myField.value.substring(endPos, myField.value.length);
+		} else {
+			myField.value += vi2;
+		}
+	}
+// -->
+</script></head>
+<body bgcolor="#FFFFFF">
+<div align="center">
+<!-- 1-134 + 817(グー) // -->
+<b>【絵文字入力</b>（<a href="howto.htm">入力方法</a>）】<br>
+<a href="i.htm">i-mode</a>/<a href="j1.htm">vodafone1</a>/<a href="j2.htm">2</a>/<b>EZWeb1</b>/<a href="e2.htm">2</a>
+<noscript>
+	<br><br>
+	<font color="red">JavaScriptが必要です。<br>
+	JavaScriptを有効にして、<br>
+	このページを再読込してください。</font><br>
+</noscript>
+<br>
+<img src="e1.gif" usemap="#e1" width=286 height=244 border=0>
+<map name="e1">
+  <area shape="rect" coords="3,3 17,17" href="#" alt="！" onMouseover="em('！')" onmouseOut="em(' ')"  onclick="em2('[ef659]')">
+  <area shape="rect" coords="17,3 31,17" href="#" alt="！" onMouseover="em('！')" onmouseOut="em(' ')" onclick="em2('[ef65a]')">
+  <area shape="rect" coords="31,3 45,17" href="#" alt="？" onMouseover="em('？')" onmouseOut="em(' ')" onclick="em2('[ef65b]')">
+  <area shape="rect" coords="45,3 59,17" href="#" alt="Ｑ" onMouseover="em('Ｑ')" onmouseOut="em(' ')" onclick="em2('[ef748]')">
+  <area shape="rect" coords="59,3 73,17" href="#" alt="三角-左" onMouseover="em('三角-左')" onmouseOut="em(' ')" onclick="em2('[ef749]')">
+  <area shape="rect" coords="73,3 87,17" href="#" alt="三角-右" onMouseover="em('三角-右')" onmouseOut="em(' ')" onclick="em2('[ef74a]')">
+  <area shape="rect" coords="87,3 101,17" href="#" alt="三角2-左" onMouseover="em('三角2-左')" onmouseOut="em(' ')" onclick="em2('[ef74b]')">
+  <area shape="rect" coords="101,3 115,17" href="#" alt="三角2-右" onMouseover="em('三角2-右')" onmouseOut="em(' ')" onclick="em2('[ef74c]')">
+  <area shape="rect" coords="115,3 129,17" href="#" alt="三角-下" onMouseover="em('三角-下')" onmouseOut="em(' ')" onclick="em2('[ef75e]')">
+  <area shape="rect" coords="129,3 143,17" href="#" alt="三角-上" onMouseover="em('三角-上')" onmouseOut="em(' ')" onclick="em2('[ef75f]')">
+  <area shape="rect" coords="143,3 157,17" href="#" alt="三角2-下" onMouseover="em('三角2-下')" onmouseOut="em(' ')" onclick="em2('[ef760]')">
+  <area shape="rect" coords="157,3 171,17" href="#" alt="三角2-上" onMouseover="em('三角2-上')" onmouseOut="em(' ')" onclick="em2('[ef761]')">
+  <area shape="rect" coords="171,3 185,17" href="#" alt="三角-上" onMouseover="em('三角-上')" onmouseOut="em(' ')" onclick="em2('[ef776]')">
+  <area shape="rect" coords="185,3 199,17" href="#" alt="三角-下" onMouseover="em('三角-下')" onmouseOut="em(' ')" onclick="em2('[ef777]')">
+  <area shape="rect" coords="199,3 213,17" href="#" alt="□-オレンジ" onMouseover="em('□-オレンジ')" onmouseOut="em(' ')" onclick="em2('[ef74d]')">
+  <area shape="rect" coords="213,3 227,17" href="#" alt="□-緑" onMouseover="em('□-緑')" onmouseOut="em(' ')" onclick="em2('[ef74e]')">
+  <area shape="rect" coords="227,3 241,17" href="#" alt="□-オレンジ" onMouseover="em('□-オレンジ')" onmouseOut="em(' ')" onclick="em2('[ef750]')">
+  <area shape="rect" coords="241,3 255,17" href="#" alt="□-緑" onMouseover="em('□-緑')" onmouseOut="em(' ')" onclick="em2('[ef751]')">
+  <area shape="rect" coords="255,3 269,17" href="#" alt="◇-オレンジ" onMouseover="em('◇-オレンジ')" onmouseOut="em(' ')" onclick="em2('[ef752]')">
+  <area shape="rect" coords="269,3 283,17" href="#" alt="◇-青" onMouseover="em('◇-青')" onmouseOut="em(' ')" onclick="em2('[ef753]')">
+
+  <area shape="rect" coords="3,17 17,31" href="#" alt="□-オレンジ" onMouseover="em('□-オレンジ')" onmouseOut="em(' ')"  onclick="em2('[ef754]')">
+  <area shape="rect" coords="17,17 31,31" href="#" alt="□-緑" onMouseover="em('□-緑')" onmouseOut="em(' ')" onclick="em2('[ef755]')">
+  <area shape="rect" coords="31,17 45,31" href="#" alt="○-赤" onMouseover="em('○-赤')" onmouseOut="em(' ')" onclick="em2('[ef756]')">
+  <area shape="rect" coords="45,17 59,31" href="#" alt="○-青" onMouseover="em('○-青')" onmouseOut="em(' ')" onclick="em2('[ef757]')">
+  <area shape="rect" coords="59,17 73,31" href="#" alt="◇-オレンジ" onMouseover="em('◇-オレンジ')" onmouseOut="em(' ')" onclick="em2('[ef762]')">
+  <area shape="rect" coords="73,17 87,31" href="#" alt="◇-青" onMouseover="em('◇-青')" onmouseOut="em(' ')" onclick="em2('[ef763]')">
+  <area shape="rect" coords="87,17 101,31" href="#" alt="□-オレンジ" onMouseover="em('□-オレンジ')" onmouseOut="em(' ')" onclick="em2('[ef764]')">
+  <area shape="rect" coords="101,17 115,31" href="#" alt="□-緑" onMouseover="em('□-緑')" onmouseOut="em(' ')" onclick="em2('[ef765]')">
+  <area shape="rect" coords="115,17 129,31" href="#" alt="○-赤" onMouseover="em('○-赤')" onmouseOut="em(' ')" onclick="em2('[ef766]')">
+  <area shape="rect" coords="129,17 143,31" href="#" alt="○-青" onMouseover="em('○-青')" onmouseOut="em(' ')" onclick="em2('[ef767]')">
+  <area shape="rect" coords="143,17 157,31" href="#" alt="矢印-上" onMouseover="em('矢印-上')" onmouseOut="em(' ')" onclick="em2('[ef75b]')">
+  <area shape="rect" coords="157,17 171,31" href="#" alt="矢印-下" onMouseover="em('矢印-下')" onmouseOut="em(' ')" onclick="em2('[ef75c]')">
+  <area shape="rect" coords="171,17 185,31" href="#" alt="矢印-右" onMouseover="em('矢印-右')" onmouseOut="em(' ')" onclick="em2('[ef76e]')">
+  <area shape="rect" coords="185,17 199,31" href="#" alt="矢印-左" onMouseover="em('矢印-左')" onmouseOut="em(' ')" onclick="em2('[ef76f]')">
+  <area shape="rect" coords="199,17 213,31" href="#" alt="矢印-左上" onMouseover="em('矢印-左上')" onmouseOut="em(' ')" onclick="em2('[ef768]')">
+  <area shape="rect" coords="213,17 227,31" href="#" alt="矢印-右下" onMouseover="em('矢印-右下')" onmouseOut="em(' ')" onclick="em2('[ef769]')">
+  <area shape="rect" coords="227,17 241,31" href="#" alt="矢印-右上" onMouseover="em('矢印-右上')" onmouseOut="em(' ')" onclick="em2('[ef771]')">
+  <area shape="rect" coords="241,17 255,31" href="#" alt="矢印-左下" onMouseover="em('矢印-左下')" onmouseOut="em(' ')" onclick="em2('[ef772]')">
+  <area shape="rect" coords="255,17 269,31" href="#" alt="左回り矢印" onMouseover="em('左回り矢印')" onmouseOut="em(' ')" onclick="em2('[ef778]')">
+  <area shape="rect" coords="269,17 283,31" href="#" alt="右回り矢印" onMouseover="em('右回り矢印')" onmouseOut="em(' ')" onclick="em2('[ef779]')">
+
+  <area shape="rect" coords="3,31 17,45" href="#" alt="晴" onMouseover="em('晴')" onmouseOut="em(' ')"  onclick="em2('[ef660]')">
+  <area shape="rect" coords="17,31 31,45" href="#" alt="曇" onMouseover="em('曇')" onmouseOut="em(' ')" onclick="em2('[ef665]')">
+  <area shape="rect" coords="31,31 45,45" href="#" alt="月" onMouseover="em('月')" onmouseOut="em(' ')" onclick="em2('[ef65e]')">
+  <area shape="rect" coords="45,31 59,45" href="#" alt="月" onMouseover="em('月')" onmouseOut="em(' ')" onclick="em2('[ef661]')">
+  <area shape="rect" coords="59,31 73,45" href="#" alt="稲妻" onMouseover="em('稲妻')" onmouseOut="em(' ')" onclick="em2('[ef65f]')">
+  <area shape="rect" coords="73,31 87,45" href="#" alt="雨" onMouseover="em('雨')" onmouseOut="em(' ')" onclick="em2('[ef664]')">
+  <area shape="rect" coords="87,31 101,45" href="#" alt="星" onMouseover="em('星')" onmouseOut="em(' ')" onclick="em2('[ef640]')">
+  <area shape="rect" coords="101,31 115,45" href="#" alt="雪の結晶" onMouseover="em('雪の結晶')" onmouseOut="em(' ')" onclick="em2('[ef662]')">
+  <area shape="rect" coords="115,31 129,45" href="#" alt="星" onMouseover="em('星')" onmouseOut="em(' ')" onclick="em2('[ef663]')">
+  <area shape="rect" coords="129,31 143,45" href="#" alt="時々曇" onMouseover="em('時々曇')" onmouseOut="em(' ')" onclick="em2('[ef666]')">
+  <area shape="rect" coords="143,31 157,45" href="#" alt="新月" onMouseover="em('新月')" onmouseOut="em(' ')" onclick="em2('[ef7c5]')">
+  <area shape="rect" coords="157,31 171,45" href="#" alt="やや欠け月" onMouseover="em('やや欠け月')" onmouseOut="em(' ')" onclick="em2('[ef7c6]')">
+  <area shape="rect" coords="171,31 185,45" href="#" alt="半月" onMouseover="em('半月')" onmouseOut="em(' ')" onclick="em2('[ef7c7]')">
+  <area shape="rect" coords="185,31 199,45" href="#" alt="台風" onMouseover="em('台風')" onmouseOut="em(' ')" onclick="em2('[ef641]')">
+  <area shape="rect" coords="199,31 213,45" href="#" alt="雪だるま" onMouseover="em('雪だるま')" onmouseOut="em(' ')" onclick="em2('[ef65d]')">
+  <area shape="rect" coords="213,31 227,45" href="#" alt="霧" onMouseover="em('霧')" onmouseOut="em(' ')" onclick="em2('[ef7b5]')">
+  <area shape="rect" coords="227,31 241,45" href="#" alt="＋" onMouseover="em('＋')" onmouseOut="em(' ')" onclick="em2('[ef758]')">
+  <area shape="rect" coords="241,31 255,45" href="#" alt="－" onMouseover="em('－')" onmouseOut="em(' ')" onclick="em2('[ef759]')">
+  <area shape="rect" coords="255,31 269,45" href="#" alt="÷" onMouseover="em('÷')" onmouseOut="em(' ')" onclick="em2('[ef770]')">
+  <area shape="rect" coords="269,31 283,45" href="#" alt="×" onMouseover="em('×')" onmouseOut="em(' ')" onclick="em2('[ef76b]')">
+
+  <area shape="rect" coords="3,45 17,59" href="#" alt="×" onMouseover="em('×')" onmouseOut="em(' ')"  onclick="em2('[ef76c]')">
+  <area shape="rect" coords="17,45 31,59" href="#" alt="×" onMouseover="em('×')" onmouseOut="em(' ')" onclick="em2('[ef76d]')">
+  <area shape="rect" coords="31,45 45,59" href="#" alt="※" onMouseover="em('※')" onmouseOut="em(' ')" onclick="em2('[ef75a]')">
+  <area shape="rect" coords="45,45 59,59" href="#" alt="丸に斜め線" onMouseover="em('丸に斜め線')" onmouseOut="em(' ')" onclick="em2('[ef75d]')">
+  <area shape="rect" coords="59,45 73,59" href="#" alt="チェック" onMouseover="em('チェック')" onmouseOut="em(' ')" onclick="em2('[ef773]')">
+  <area shape="rect" coords="73,45 87,59" href="#" alt="チェック" onMouseover="em('チェック')" onmouseOut="em(' ')" onclick="em2('[ef77a]')">
+  <area shape="rect" coords="87,45 101,59" href="#" alt="(TM)" onMouseover="em('(TM)')" onmouseOut="em(' ')" onclick="em2('[ef76a]')">
+  <area shape="rect" coords="101,45 115,59" href="#" alt="(C)" onMouseover="em('(C)')" onmouseOut="em(' ')" onclick="em2('[ef774]')">
+  <area shape="rect" coords="115,45 129,59" href="#" alt="(R)" onMouseover="em('(R)')" onmouseOut="em(' ')" onclick="em2('[ef775]')">
+  <area shape="rect" coords="129,45 143,59" href="#" alt="フォルダ-閉" onMouseover="em('フォルダ-閉')" onmouseOut="em(' ')" onclick="em2('[ef7ac]')">
+  <area shape="rect" coords="143,45 157,59" href="#" alt="フォルダ-開" onMouseover="em('フォルダ-開')" onmouseOut="em(' ')" onclick="em2('[ef7ad]')">
+  <area shape="rect" coords="157,45 171,59" href="#" alt="野球" onMouseover="em('野球')" onmouseOut="em(' ')" onclick="em2('[ef693]')">
+  <area shape="rect" coords="171,45 185,59" href="#" alt="フットボール" onMouseover="em('フットボール')" onmouseOut="em(' ')" onclick="em2('[ef694]')">
+  <area shape="rect" coords="185,45 199,59" href="#" alt="マラソン" onMouseover="em('マラソン')" onmouseOut="em(' ')" onclick="em2('[ef643]')">
+  <area shape="rect" coords="199,45 213,59" href="#" alt="サッカー" onMouseover="em('サッカー')" onmouseOut="em(' ')" onclick="em2('[ef68f]')">
+  <area shape="rect" coords="213,45 227,59" href="#" alt="テニス" onMouseover="em('テニス')" onmouseOut="em(' ')" onclick="em2('[ef690]')">
+  <area shape="rect" coords="227,45 241,59" href="#" alt="スノボ" onMouseover="em('スノボ')" onmouseOut="em(' ')" onclick="em2('[ef691]')">
+  <area shape="rect" coords="241,45 255,59" href="#" alt="モータースポーツ" onMouseover="em('モータースポーツ')" onmouseOut="em(' ')" onclick="em2('[ef692]')">
+  <area shape="rect" coords="255,45 269,59" href="#" alt="ゴルフ" onMouseover="em('ゴルフ')" onmouseOut="em(' ')" onclick="em2('[ef7b6]')">
+  <area shape="rect" coords="269,45 283,59" href="#" alt="バスケ" onMouseover="em('バスケ')" onmouseOut="em(' ')" onclick="em2('[ef7b7]')">
+
+  <area shape="rect" coords="3,59 17,73" href="#" alt="プードル" onMouseover="em('プードル')" onmouseOut="em(' ')"  onclick="em2('[ef6b8]')">
+  <area shape="rect" coords="17,59 31,73" href="#" alt="鳥" onMouseover="em('鳥')" onmouseOut="em(' ')" onclick="em2('[ef6b9]')">
+  <area shape="rect" coords="31,59 45,73" href="#" alt="クジラ" onMouseover="em('クジラ')" onmouseOut="em(' ')" onclick="em2('[ef648]')">
+  <area shape="rect" coords="45,59 59,73" href="#" alt="ウサギ" onMouseover="em('ウサギ')" onmouseOut="em(' ')" onclick="em2('[ef6b0]')">
+  <area shape="rect" coords="59,59 73,73" href="#" alt="馬" onMouseover="em('馬')" onmouseOut="em(' ')" onclick="em2('[ef6b1]')">
+  <area shape="rect" coords="73,59 87,73" href="#" alt="猿" onMouseover="em('猿')" onmouseOut="em(' ')" onclick="em2('[ef6b2]')">
+  <area shape="rect" coords="87,59 101,73" href="#" alt="カエル" onMouseover="em('カエル')" onmouseOut="em(' ')" onclick="em2('[ef6b3]')">
+  <area shape="rect" coords="101,59 115,73" href="#" alt="猫" onMouseover="em('猫')" onmouseOut="em(' ')" onclick="em2('[ef6b4]')">
+  <area shape="rect" coords="115,59 129,73" href="#" alt="ペンギン" onMouseover="em('ペンギン')" onmouseOut="em(' ')" onclick="em2('[ef6b5]')">
+  <area shape="rect" coords="129,59 143,73" href="#" alt="アリ" onMouseover="em('アリ')" onmouseOut="em(' ')" onclick="em2('[ef6b6]')">
+  <area shape="rect" coords="143,59 157,73" href="#" alt="ブタ" onMouseover="em('ブタ')" onmouseOut="em(' ')" onclick="em2('[ef6b7]')">
+  <area shape="rect" coords="157,59 171,73" href="#" alt="犬の足跡" onMouseover="em('犬の足跡')" onmouseOut="em(' ')" onclick="em2('[ef6c7]')">
+  <area shape="rect" coords="171,59 185,73" href="#" alt="悪魔" onMouseover="em('悪魔')" onmouseOut="em(' ')" onclick="em2('[ef6c8]')">
+  <area shape="rect" coords="185,59 199,73" href="#" alt="宇宙人" onMouseover="em('宇宙人')" onmouseOut="em(' ')" onclick="em2('[ef6c5]')">
+  <area shape="rect" coords="199,59 213,73" href="#" alt="お化け" onMouseover="em('お化け')" onmouseOut="em(' ')" onclick="em2('[ef6a4]')">
+  <area shape="rect" coords="213,59 227,73" href="#" alt="腕時計" onMouseover="em('腕時計')" onmouseOut="em(' ')" onclick="em2('[ef797]')">
+  <area shape="rect" coords="227,59 241,73" href="#" alt="時計" onMouseover="em('時計')" onmouseOut="em(' ')" onclick="em2('[ef7b1]')">
+  <area shape="rect" coords="241,59 255,73" href="#" alt="砂時計" onMouseover="em('砂時計')" onmouseOut="em(' ')" onclick="em2('[ef798]')">
+  <area shape="rect" coords="255,59 269,73" href="#" alt="砂時計" onMouseover="em('砂時計')" onmouseOut="em(' ')" onclick="em2('[ef654]')">
+  <area shape="rect" coords="269,59 283,73" href="#" alt="スピーカ" onMouseover="em('スピーカ')" onmouseOut="em(' ')" onclick="em2('[ef6ea]')">
+
+  <area shape="rect" coords="3,73 17,87" href="#" alt="電球" onMouseover="em('電球')" onmouseOut="em(' ')"  onclick="em2('[ef64e]')">
+  <area shape="rect" coords="17,73 31,87" href="#" alt="電話" onMouseover="em('電話')" onmouseOut="em(' ')" onclick="em2('[ef7b3]')">
+  <area shape="rect" coords="31,73 45,87" href="#" alt="携帯電話" onMouseover="em('携帯電話')" onmouseOut="em(' ')" onclick="em2('[ef7a5]')">
+  <area shape="rect" coords="45,73 59,87" href="#" alt="FAX" onMouseover="em('FAX')" onmouseOut="em(' ')" onclick="em2('[ef6f9]')">
+  <area shape="rect" coords="59,73 73,87" href="#" alt="ポケベル" onMouseover="em('ポケベル')" onmouseOut="em(' ')" onclick="em2('[ef7b8]')">
+  <area shape="rect" coords="73,73 87,87" href="#" alt="スマイルフェイス" onMouseover="em('スマイルフェイス')" onmouseOut="em(' ')" onclick="em2('[ef6d4]')">
+  <area shape="rect" coords="87,73 101,87" href="#" alt="男性" onMouseover="em('男性')" onmouseOut="em(' ')" onclick="em2('[ef6d5]')">
+  <area shape="rect" coords="101,73 115,87" href="#" alt="女性" onMouseover="em('女性')" onmouseOut="em(' ')" onclick="em2('[ef6d3]')">
+  <area shape="rect" coords="115,73 129,87" href="#" alt="わ～い" onMouseover="em('わ～い')" onmouseOut="em(' ')" onclick="em2('[ef649]')">
+  <area shape="rect" coords="129,73 143,87" href="#" alt="むかっ" onMouseover="em('むかっ')" onmouseOut="em(' ')" onclick="em2('[ef64a]')">
+  <area shape="rect" coords="143,73 157,87" href="#" alt="泣" onMouseover="em('泣')" onmouseOut="em(' ')" onclick="em2('[ef64b]')">
+  <area shape="rect" coords="157,73 171,87" href="#" alt="疲れた" onMouseover="em('疲れた')" onmouseOut="em(' ')" onclick="em2('[ef64c]')">
+  <area shape="rect" coords="171,73 185,87" href="#" alt="あっかんべー" onMouseover="em('あっかんべー')" onmouseOut="em(' ')" onclick="em2('[ef6c0]')">
+  <area shape="rect" coords="185,73 199,87" href="#" alt="ふらふら" onMouseover="em('ふらふら')" onmouseOut="em(' ')" onclick="em2('[ef7cb]')">
+  <area shape="rect" coords="199,73 213,87" href="#" alt="ZZZ" onMouseover="em('ZZZ')" onmouseOut="em(' ')" onclick="em2('[ef64d]')">
+  <area shape="rect" coords="213,73 227,87" href="#" alt="むかっ" onMouseover="em('むかっ')" onmouseOut="em(' ')" onclick="em2('[ef6be]')">
+  <area shape="rect" coords="227,73 241,87" href="#" alt="汗" onMouseover="em('汗')" onmouseOut="em(' ')" onclick="em2('[ef6bf]')">
+  <area shape="rect" coords="241,73 255,87" href="#" alt="割れハート" onMouseover="em('割れハート')" onmouseOut="em(' ')" onclick="em2('[ef64f]')">
+  <area shape="rect" coords="255,73 269,87" href="#" alt="ハートたち" onMouseover="em('ハートたち')" onmouseOut="em(' ')" onclick="em2('[ef650]')">
+  <area shape="rect" coords="269,73 283,87" href="#" alt="かわいい" onMouseover="em('かわいい')" onmouseOut="em(' ')" onclick="em2('[ef7cc]')">
+
+  <area shape="rect" coords="3,87 17,101" href="#" alt="どんっ" onMouseover="em('どんっ')" onmouseOut="em(' ')"  onclick="em2('[ef7cd]')">
+  <area shape="rect" coords="17,87 31,101" href="#" alt="飛び散る汗" onMouseover="em('飛び散る汗')" onmouseOut="em(' ')" onclick="em2('[ef7ce]')">
+  <area shape="rect" coords="31,87 45,101" href="#" alt="家族" onMouseover="em('家族')" onmouseOut="em(' ')" onclick="em2('[ef6da]')">
+  <area shape="rect" coords="45,87 59,101" href="#" alt="ハートに矢" onMouseover="em('ハートに矢')" onmouseOut="em(' ')" onclick="em2('[ef6c3]')">
+  <area shape="rect" coords="59,87 73,101" href="#" alt="キスマーク" onMouseover="em('キスマーク')" onmouseOut="em(' ')" onclick="em2('[ef6c4]')">
+  <area shape="rect" coords="73,87 87,101" href="#" alt="吹き出しコメント" onMouseover="em('吹き出しコメント')" onmouseOut="em(' ')" onclick="em2('[ef6d6]')">
+  <area shape="rect" coords="87,87 101,101" href="#" alt="パンチ" onMouseover="em('パンチ')" onmouseOut="em(' ')" onclick="em2('[ef6cc]')">
+  <area shape="rect" coords="101,87 115,101" href="#" alt="ダッシュ" onMouseover="em('ダッシュ')" onmouseOut="em(' ')" onclick="em2('[ef6cd]')">
+  <area shape="rect" coords="115,87 129,101" href="#" alt="人差し指サイン" onMouseover="em('人差し指サイン')" onmouseOut="em(' ')" onclick="em2('[ef6cf]')">
+  <area shape="rect" coords="129,87 143,101" href="#" alt="親指サイン" onMouseover="em('親指サイン')" onmouseOut="em(' ')" onclick="em2('[ef6d2]')">
+  <area shape="rect" coords="143,87 157,101" href="#" alt="SOS" onMouseover="em('SOS')" onmouseOut="em(' ')" onclick="em2('[ef6c1]')">
+  <area shape="rect" coords="157,87 171,101" href="#" alt="力こぶ" onMouseover="em('力こぶ')" onmouseOut="em(' ')" onclick="em2('[ef6c2]')">
+  <area shape="rect" coords="171,87 185,101" href="#" alt="０" onMouseover="em('０')" onmouseOut="em(' ')" onclick="em2('[ef7c9]')">
+  <area shape="rect" coords="185,87 199,101" href="#" alt="１" onMouseover="em('１')" onmouseOut="em(' ')" onclick="em2('[ef6fb]')">
+  <area shape="rect" coords="199,87 213,101" href="#" alt="２" onMouseover="em('２')" onmouseOut="em(' ')" onclick="em2('[ef6fc]')">
+  <area shape="rect" coords="213,87 227,101" href="#" alt="３" onMouseover="em('３')" onmouseOut="em(' ')" onclick="em2('[ef740]')">
+  <area shape="rect" coords="227,87 241,101" href="#" alt="４" onMouseover="em('４')" onmouseOut="em(' ')" onclick="em2('[ef741]')">
+  <area shape="rect" coords="241,87 255,101" href="#" alt="５" onMouseover="em('５')" onmouseOut="em(' ')" onclick="em2('[ef742]')">
+  <area shape="rect" coords="255,87 269,101" href="#" alt="６" onMouseover="em('６')" onmouseOut="em(' ')" onclick="em2('[ef743]')">
+  <area shape="rect" coords="269,87 283,101" href="#" alt="７" onMouseover="em('７')" onmouseOut="em(' ')" onclick="em2('[ef744]')">
+
+  <area shape="rect" coords="3,101 17,115" href="#" alt="８" onMouseover="em('８')" onmouseOut="em(' ')"  onclick="em2('[ef745]')">
+  <area shape="rect" coords="17,101 31,115" href="#" alt="９" onMouseover="em('９')" onmouseOut="em(' ')" onclick="em2('[ef746]')">
+  <area shape="rect" coords="31,101 45,115" href="#" alt="10" onMouseover="em('10')" onmouseOut="em(' ')" onclick="em2('[ef747]')">
+  <area shape="rect" coords="45,101 59,115" href="#" alt="牡羊座" onMouseover="em('牡羊座')" onmouseOut="em(' ')" onclick="em2('[ef667]')">
+  <area shape="rect" coords="59,101 73,115" href="#" alt="牡牛座" onMouseover="em('牡牛座')" onmouseOut="em(' ')" onclick="em2('[ef668]')">
+  <area shape="rect" coords="73,101 87,115" href="#" alt="双子座" onMouseover="em('双子座')" onmouseOut="em(' ')" onclick="em2('[ef669]')">
+  <area shape="rect" coords="87,101 101,115" href="#" alt="蟹座" onMouseover="em('蟹座')" onmouseOut="em(' ')" onclick="em2('[ef66a]')">
+  <area shape="rect" coords="101,101 115,115" href="#" alt="獅子座" onMouseover="em('獅子座')" onmouseOut="em(' ')" onclick="em2('[ef66b]')">
+  <area shape="rect" coords="115,101 129,115" href="#" alt="乙女座" onMouseover="em('乙女座')" onmouseOut="em(' ')" onclick="em2('[ef66c]')">
+  <area shape="rect" coords="129,101 143,115" href="#" alt="天秤座" onMouseover="em('天秤座')" onmouseOut="em(' ')" onclick="em2('[ef66d]')">
+  <area shape="rect" coords="143,101 157,115" href="#" alt="蠍座" onMouseover="em('蠍座')" onmouseOut="em(' ')" onclick="em2('[ef66e]')">
+  <area shape="rect" coords="157,101 171,115" href="#" alt="射手座" onMouseover="em('射手座')" onmouseOut="em(' ')" onclick="em2('[ef66f]')">
+  <area shape="rect" coords="171,101 185,115" href="#" alt="山羊座" onMouseover="em('山羊座')" onmouseOut="em(' ')" onclick="em2('[ef670]')">
+  <area shape="rect" coords="185,101 199,115" href="#" alt="水瓶座" onMouseover="em('水瓶座')" onmouseOut="em(' ')" onclick="em2('[ef671]')">
+  <area shape="rect" coords="199,101 213,115" href="#" alt="魚座" onMouseover="em('魚座')" onmouseOut="em(' ')" onclick="em2('[ef672]')">
+  <area shape="rect" coords="213,101 227,115" href="#" alt="蛇遣座" onMouseover="em('蛇遣座')" onmouseOut="em(' ')" onclick="em2('[ef673]')">
+  <area shape="rect" coords="227,101 241,115" href="#" alt="＄" onMouseover="em('＄')" onmouseOut="em(' ')" onclick="em2('[ef796]')">
+  <area shape="rect" coords="241,101 255,115" href="#" alt="ドル札" onMouseover="em('ドル札')" onmouseOut="em(' ')" onclick="em2('[ef7a2]')">
+  <area shape="rect" coords="255,101 269,115" href="#" alt="USA" onMouseover="em('USA')" onmouseOut="em(' ')" onclick="em2('[ef790]')">
+  <area shape="rect" coords="269,101 283,115" href="#" alt="ベル" onMouseover="em('ベル')" onmouseOut="em(' ')" onclick="em2('[ef6eb]')">
+
+  <area shape="rect" coords="3,115 17,129" href="#" alt="画鋲" onMouseover="em('画鋲')" onmouseOut="em(' ')"  onclick="em2('[ef77c]')">
+  <area shape="rect" coords="17,115 31,129" href="#" alt="四つ葉のクローバー" onMouseover="em('四つ葉のクローバー')" onmouseOut="em(' ')" onclick="em2('[ef6ec]')">
+  <area shape="rect" coords="31,115 45,129" href="#" alt="文書" onMouseover="em('文書')" onmouseOut="em(' ')" onclick="em2('[ef77d]')">
+  <area shape="rect" coords="45,115 59,129" href="#" alt="FD" onMouseover="em('FD')" onmouseOut="em(' ')" onclick="em2('[ef77e]')">
+  <area shape="rect" coords="59,115 73,129" href="#" alt="マグカップ" onMouseover="em('マグカップ')" onmouseOut="em(' ')" onclick="em2('[ef69c]')">
+  <area shape="rect" coords="73,115 87,129" href="#" alt="カレンダー" onMouseover="em('カレンダー')" onmouseOut="em(' ')" onclick="em2('[ef780]')">
+  <area shape="rect" coords="87,115 101,129" href="#" alt="ジュエリー" onMouseover="em('ジュエリー')" onmouseOut="em(' ')" onclick="em2('[ef6ed]')">
+  <area shape="rect" coords="101,115 115,129" href="#" alt="スパーク" onMouseover="em('スパーク')" onmouseOut="em(' ')" onclick="em2('[ef644]')">
+  <area shape="rect" coords="115,115 129,129" href="#" alt="ハンドバッグ" onMouseover="em('ハンドバッグ')" onmouseOut="em(' ')" onclick="em2('[ef674]')">
+  <area shape="rect" coords="129,115 143,129" href="#" alt="クレジットカード" onMouseover="em('クレジットカード')" onmouseOut="em(' ')" onclick="em2('[ef799]')">
+  <area shape="rect" coords="143,115 157,129" href="#" alt="ノート" onMouseover="em('ノート')" onmouseOut="em(' ')" onclick="em2('[ef675]')">
+  <area shape="rect" coords="157,115 171,129" href="#" alt="クリップボード" onMouseover="em('クリップボード')" onmouseOut="em(' ')" onclick="em2('[ef781]')">
+  <area shape="rect" coords="171,115 185,129" href="#" alt="カップ" onMouseover="em('カップ')" onmouseOut="em(' ')" onclick="em2('[ef7b4]')">
+  <area shape="rect" coords="185,115 199,129" href="#" alt="カメラ" onMouseover="em('カメラ')" onmouseOut="em(' ')" onclick="em2('[ef6ee]')">
+  <area shape="rect" coords="199,115 213,129" href="#" alt="本" onMouseover="em('本')" onmouseOut="em(' ')" onclick="em2('[ef782]')">
+  <area shape="rect" coords="213,115 227,129" href="#" alt="立入禁止" onMouseover="em('立入禁止')" onmouseOut="em(' ')" onclick="em2('[ef65c]')">
+  <area shape="rect" coords="227,115 241,129" href="#" alt="信号" onMouseover="em('信号')" onmouseOut="em(' ')" onclick="em2('[ef642]')">
+  <area shape="rect" coords="241,115 255,129" href="#" alt="本" onMouseover="em('本')" onmouseOut="em(' ')" onclick="em2('[ef783]')">
+  <area shape="rect" coords="255,115 269,129" href="#" alt="本" onMouseover="em('本')" onmouseOut="em(' ')" onclick="em2('[ef784]')">
+  <area shape="rect" coords="269,115 283,129" href="#" alt="本" onMouseover="em('本')" onmouseOut="em(' ')" onclick="em2('[ef785]')">
+
+  <area shape="rect" coords="3,129 17,143" href="#" alt="文書" onMouseover="em('文書')" onmouseOut="em(' ')"  onclick="em2('[ef786]')">
+  <area shape="rect" coords="17,129 31,143" href="#" alt="はさみ" onMouseover="em('はさみ')" onmouseOut="em(' ')" onclick="em2('[ef6ef]')">
+  <area shape="rect" coords="31,129 45,143" href="#" alt="ひめくりカレンダー" onMouseover="em('ひめくりカレンダー')" onmouseOut="em(' ')" onclick="em2('[ef787]')">
+  <area shape="rect" coords="45,129 59,143" href="#" alt="チケット" onMouseover="em('チケット')" onmouseOut="em(' ')" onclick="em2('[ef676]')">
+  <area shape="rect" coords="59,129 73,143" href="#" alt="封筒" onMouseover="em('封筒')" onmouseOut="em(' ')" onclick="em2('[ef6fa]')">
+  <area shape="rect" coords="73,129 87,143" href="#" alt="小切手" onMouseover="em('小切手')" onmouseOut="em(' ')" onclick="em2('[ef79a]')">
+  <area shape="rect" coords="87,129 101,143" href="#" alt="ビデオカメラ" onMouseover="em('ビデオカメラ')" onmouseOut="em(' ')" onclick="em2('[ef6f0]')">
+  <area shape="rect" coords="101,129 115,143" href="#" alt="ハンディカム" onMouseover="em('ハンディカム')" onmouseOut="em(' ')" onclick="em2('[ef79b]')">
+  <area shape="rect" coords="115,129 129,143" href="#" alt="家" onMouseover="em('家')" onmouseOut="em(' ')" onclick="em2('[ef684]')">
+  <area shape="rect" coords="129,129 143,143" href="#" alt="花" onMouseover="em('花')" onmouseOut="em(' ')" onclick="em2('[ef6bd]')">
+  <area shape="rect" coords="143,129 157,143" href="#" alt="ナイフ" onMouseover="em('ナイフ')" onmouseOut="em(' ')" onclick="em2('[ef79c]')">
+  <area shape="rect" coords="157,129 171,143" href="#" alt="ビデオテープ" onMouseover="em('ビデオテープ')" onmouseOut="em(' ')" onclick="em2('[ef79d]')">
+  <area shape="rect" coords="171,129 185,143" href="#" alt="眼鏡" onMouseover="em('眼鏡')" onmouseOut="em(' ')" onclick="em2('[ef6d7]')">
+  <area shape="rect" coords="185,129 199,143" href="#" alt="虫眼鏡" onMouseover="em('虫眼鏡')" onmouseOut="em(' ')" onclick="em2('[ef6f1]')">
+  <area shape="rect" coords="199,129 213,143" href="#" alt="鍵" onMouseover="em('鍵')" onmouseOut="em(' ')" onclick="em2('[ef6f2]')">
+  <area shape="rect" coords="213,129 227,143" href="#" alt="車" onMouseover="em('車')" onmouseOut="em(' ')" onclick="em2('[ef68a]')">
+  <area shape="rect" coords="227,129 241,143" href="#" alt="飛行機" onMouseover="em('飛行機')" onmouseOut="em(' ')" onclick="em2('[ef68c]')">
+  <area shape="rect" coords="241,129 255,143" href="#" alt="船" onMouseover="em('船')" onmouseOut="em(' ')" onclick="em2('[ef68d]')">
+  <area shape="rect" coords="255,129 269,143" href="#" alt="電車" onMouseover="em('電車')" onmouseOut="em(' ')" onclick="em2('[ef68e]')">
+  <area shape="rect" coords="269,129 283,143" href="#" alt="自転車" onMouseover="em('自転車')" onmouseOut="em(' ')" onclick="em2('[ef687]')">
+
+  <area shape="rect" coords="3,143 17,157" href="#" alt="バス" onMouseover="em('バス')" onmouseOut="em(' ')"  onclick="em2('[ef688]')">
+  <area shape="rect" coords="17,143 31,157" href="#" alt="新幹線" onMouseover="em('新幹線')" onmouseOut="em(' ')" onclick="em2('[ef689]')">
+  <area shape="rect" coords="31,143 45,157" href="#" alt="ノート" onMouseover="em('ノート')" onmouseOut="em(' ')" onclick="em2('[ef788]')">
+  <area shape="rect" coords="45,143 59,157" href="#" alt="ノート-開" onMouseover="em('ノート-開')" onmouseOut="em(' ')" onclick="em2('[ef677]')">
+  <area shape="rect" coords="59,143 73,157" href="#" alt="ボルト&ナット" onMouseover="em('ボルト&ナット')" onmouseOut="em(' ')" onclick="em2('[ef79e]')">
+  <area shape="rect" coords="73,143 87,157" href="#" alt="靴" onMouseover="em('靴')" onmouseOut="em(' ')" onclick="em2('[ef6f3]')">
+  <area shape="rect" coords="87,143 101,157" href="#" alt="棒グラフ" onMouseover="em('棒グラフ')" onmouseOut="em(' ')" onclick="em2('[ef791]')">
+  <area shape="rect" coords="101,143 115,157" href="#" alt="折れ線グラフ" onMouseover="em('折れ線グラフ')" onmouseOut="em(' ')" onclick="em2('[ef792]')">
+  <area shape="rect" coords="115,143 129,157" href="#" alt="メールボックス" onMouseover="em('メールボックス')" onmouseOut="em(' ')" onclick="em2('[ef6f4]')">
+  <area shape="rect" coords="129,143 143,157" href="#" alt="懐中電灯" onMouseover="em('懐中電灯')" onmouseOut="em(' ')" onclick="em2('[ef7a0]')">
+  <area shape="rect" coords="143,143 157,157" href="#" alt="Roldex" onMouseover="em('Roldex')" onmouseOut="em(' ')" onclick="em2('[ef789]')">
+  <area shape="rect" coords="157,143 171,157" href="#" alt="はっぱ" onMouseover="em('はっぱ')" onmouseOut="em(' ')" onclick="em2('[ef6a7]')">
+  <area shape="rect" coords="171,143 185,157" href="#" alt="猟犬" onMouseover="em('猟犬')" onmouseOut="em(' ')" onclick="em2('[ef6ba]')">
+  <area shape="rect" coords="185,143 199,157" href="#" alt="電池" onMouseover="em('電池')" onmouseOut="em(' ')" onclick="em2('[ef7a1]')">
+  <area shape="rect" coords="199,143 213,157" href="#" alt="スクロール" onMouseover="em('スクロール')" onmouseOut="em(' ')" onclick="em2('[ef77b]')">
+  <area shape="rect" coords="213,143 227,157" href="#" alt="画鋲" onMouseover="em('画鋲')" onmouseOut="em(' ')" onclick="em2('[ef78a]')">
+  <area shape="rect" coords="227,143 241,157" href="#" alt="錠前" onMouseover="em('錠前')" onmouseOut="em(' ')" onclick="em2('[ef6f5]')">
+  <area shape="rect" coords="241,143 255,157" href="#" alt="指差確認-左" onMouseover="em('指差確認-左')" onmouseOut="em(' ')" onclick="em2('[ef6d8]')">
+  <area shape="rect" coords="255,143 269,157" href="#" alt="指差確認-右" onMouseover="em('指差確認-右')" onmouseOut="em(' ')" onclick="em2('[ef6d9]')">
+  <area shape="rect" coords="269,143 283,157" href="#" alt="台帳" onMouseover="em('台帳')" onmouseOut="em(' ')" onclick="em2('[ef78b]')">
+
+  <area shape="rect" coords="3,157 17,171" href="#" alt="クリップ" onMouseover="em('クリップ')" onmouseOut="em(' ')"  onclick="em2('[ef678]')">
+  <area shape="rect" coords="17,157 31,171" href="#" alt="プレゼント" onMouseover="em('プレゼント')" onmouseOut="em(' ')" onclick="em2('[ef6a8]')">
+  <area shape="rect" coords="31,157 45,171" href="#" alt="名札" onMouseover="em('名札')" onmouseOut="em(' ')" onclick="em2('[ef6f6]')">
+  <area shape="rect" coords="45,157 59,171" href="#" alt="レストラン" onMouseover="em('レストラン')" onmouseOut="em(' ')" onclick="em2('[ef685]')">
+  <area shape="rect" coords="59,157 73,171" href="#" alt="本" onMouseover="em('本')" onmouseOut="em(' ')" onclick="em2('[ef78c]')">
+  <area shape="rect" coords="73,157 87,171" href="#" alt="トラック" onMouseover="em('トラック')" onmouseOut="em(' ')" onclick="em2('[ef68b]')">
+  <area shape="rect" coords="87,157 101,171" href="#" alt="鉛筆" onMouseover="em('鉛筆')" onmouseOut="em(' ')" onclick="em2('[ef679]')">
+  <area shape="rect" coords="101,157 115,171" href="#" alt="PDC社" onMouseover="em('PDC社')" onmouseOut="em(' ')" onclick="em2('[ef7a3]')">
+  <area shape="rect" coords="115,157 129,171" href="#" alt="封筒" onMouseover="em('封筒')" onmouseOut="em(' ')" onclick="em2('[ef7ae]')">
+  <area shape="rect" coords="129,157 143,171" href="#" alt="レンチ" onMouseover="em('レンチ')" onmouseOut="em(' ')" onclick="em2('[ef7a4]')">
+  <area shape="rect" coords="143,157 157,171" href="#" alt="送信BOX" onMouseover="em('送信BOX')" onmouseOut="em(' ')" onclick="em2('[ef7af]')">
+  <area shape="rect" coords="157,157 171,171" href="#" alt="受信BOX" onMouseover="em('受信BOX')" onmouseOut="em(' ')" onclick="em2('[ef7b0]')">
+  <area shape="rect" coords="171,157 185,171" href="#" alt="電話" onMouseover="em('電話')" onmouseOut="em(' ')" onclick="em2('[ef6f7]')">
+  <area shape="rect" coords="185,157 199,171" href="#" alt="工場" onMouseover="em('工場')" onmouseOut="em(' ')" onclick="em2('[ef686]')">
+  <area shape="rect" coords="199,157 213,171" href="#" alt="定規" onMouseover="em('定規')" onmouseOut="em(' ')" onclick="em2('[ef78d]')">
+  <area shape="rect" coords="213,157 227,171" href="#" alt="三角定規" onMouseover="em('三角定規')" onmouseOut="em(' ')" onclick="em2('[ef67a]')">
+  <area shape="rect" coords="227,157 241,171" href="#" alt="グラフ" onMouseover="em('グラフ')" onmouseOut="em(' ')" onclick="em2('[ef793]')">
+  <area shape="rect" coords="241,157 255,171" href="#" alt="コンセント" onMouseover="em('コンセント')" onmouseOut="em(' ')" onclick="em2('[ef7a6]')">
+  <area shape="rect" coords="255,157 269,171" href="#" alt="リンク" onMouseover="em('リンク')" onmouseOut="em(' ')" onclick="em2('[ef7a7]')">
+  <area shape="rect" coords="269,157 283,171" href="#" alt="FD" onMouseover="em('FD')" onmouseOut="em(' ')" onclick="em2('[ef79f]')">
+
+  <area shape="rect" coords="3,171 17,185" href="#" alt="パッケージ" onMouseover="em('パッケージ')" onmouseOut="em(' ')"  onclick="em2('[ef6f8]')">
+  <area shape="rect" coords="17,171 31,185" href="#" alt="サイコロ" onMouseover="em('サイコロ')" onmouseOut="em(' ')" onclick="em2('[ef6a1]')">
+  <area shape="rect" coords="31,171 45,185" href="#" alt="新聞" onMouseover="em('新聞')" onmouseOut="em(' ')" onclick="em2('[ef7a8]')">
+  <area shape="rect" coords="45,171 59,185" href="#" alt="スペース" onMouseover="em('スペース')" onmouseOut="em(' ')" onclick="em2('[ef7a9]')">
+  <area shape="rect" coords="59,171 73,185" href="#" alt="1/2スペース" onMouseover="em('1/2スペース')" onmouseOut="em(' ')" onclick="em2('[ef7aa]')">
+  <area shape="rect" coords="73,171 87,185" href="#" alt="1/4スペース" onMouseover="em('1/4スペース')" onmouseOut="em(' ')" onclick="em2('[ef7ab]')">
+  <area shape="rect" coords="87,171 101,185" href="#" alt="喫煙" onMouseover="em('喫煙')" onmouseOut="em(' ')" onclick="em2('[ef655]')">
+  <area shape="rect" coords="101,171 115,185" href="#" alt="禁煙" onMouseover="em('禁煙')" onmouseOut="em(' ')" onclick="em2('[ef656]')">
+  <area shape="rect" coords="115,171 129,185" href="#" alt="車椅子" onMouseover="em('車椅子')" onmouseOut="em(' ')" onclick="em2('[ef657]')">
+  <area shape="rect" coords="129,171 143,185" href="#" alt="若葉マーク" onMouseover="em('若葉マーク')" onmouseOut="em(' ')" onclick="em2('[ef658]')">
+  <area shape="rect" coords="143,171 157,185" href="#" alt="ATM" onMouseover="em('ATM')" onmouseOut="em(' ')" onclick="em2('[ef67b]')">
+  <area shape="rect" coords="157,171 171,185" href="#" alt="コンビニ" onMouseover="em('コンビニ')" onmouseOut="em(' ')" onclick="em2('[ef67c]')">
+  <area shape="rect" coords="171,171 185,185" href="#" alt="トイレ" onMouseover="em('トイレ')" onmouseOut="em(' ')" onclick="em2('[ef67d]')">
+  <area shape="rect" coords="185,171 199,185" href="#" alt="Ｐ" onMouseover="em('Ｐ')" onmouseOut="em(' ')" onclick="em2('[ef67e]')">
+  <area shape="rect" coords="199,171 213,185" href="#" alt="バス停" onMouseover="em('バス停')" onmouseOut="em(' ')" onclick="em2('[ef680]')">
+  <area shape="rect" coords="213,171 227,185" href="#" alt="アンテナ-位置情報マーク" onMouseover="em('アンテナ-位置情報マーク')" onmouseOut="em(' ')" onclick="em2('[ef681]')">
+  <area shape="rect" coords="227,171 241,185" href="#" alt="港" onMouseover="em('港')" onmouseOut="em(' ')" onclick="em2('[ef682]')">
+  <area shape="rect" coords="241,171 255,185" href="#" alt="銀行" onMouseover="em('銀行')" onmouseOut="em(' ')" onclick="em2('[ef683]')">
+  <area shape="rect" coords="255,171 269,185" href="#" alt="GS" onMouseover="em('GS')" onmouseOut="em(' ')" onclick="em2('[ef78e]')">
+  <area shape="rect" coords="269,171 283,185" href="#" alt="地図" onMouseover="em('地図')" onmouseOut="em(' ')" onclick="em2('[ef78f]')">
+
+  <area shape="rect" coords="3,185 17,199" href="#" alt="遊園地" onMouseover="em('遊園地')" onmouseOut="em(' ')"  onclick="em2('[ef645]')">
+  <area shape="rect" coords="17,185 31,199" href="#" alt="温泉" onMouseover="em('温泉')" onmouseOut="em(' ')" onclick="em2('[ef695]')">
+  <area shape="rect" coords="31,185 45,199" href="#" alt="居酒屋" onMouseover="em('居酒屋')" onmouseOut="em(' ')" onclick="em2('[ef696]')">
+  <area shape="rect" coords="45,185 59,199" href="#" alt="映画" onMouseover="em('映画')" onmouseOut="em(' ')" onclick="em2('[ef697]')">
+  <area shape="rect" coords="59,185 73,199" href="#" alt="夜の橋" onMouseover="em('夜の橋')" onmouseOut="em(' ')" onclick="em2('[ef698]')">
+  <area shape="rect" coords="73,185 87,199" href="#" alt="東京タワー" onMouseover="em('東京タワー')" onmouseOut="em(' ')" onclick="em2('[ef699]')">
+  <area shape="rect" coords="87,185 101,199" href="#" alt="スロット" onMouseover="em('スロット')" onmouseOut="em(' ')" onclick="em2('[ef646]')">
+  <area shape="rect" coords="101,185 115,199" href="#" alt="くす玉-当" onMouseover="em('くす玉-当')" onmouseOut="em(' ')" onclick="em2('[ef647]')">
+  <area shape="rect" coords="115,185 129,199" href="#" alt="当選弓矢" onMouseover="em('当選弓矢')" onmouseOut="em(' ')" onclick="em2('[ef69e]')">
+  <area shape="rect" coords="129,185 143,199" href="#" alt="ゲームのコントローラ" onMouseover="em('ゲームのコントローラ')" onmouseOut="em(' ')" onclick="em2('[ef69f]')">
+  <area shape="rect" coords="143,185 157,199" href="#" alt="賞金" onMouseover="em('賞金')" onmouseOut="em(' ')" onclick="em2('[ef6a0]')">
+  <area shape="rect" coords="157,185 171,199" href="#" alt="クリスマスツリー" onMouseover="em('クリスマスツリー')" onmouseOut="em(' ')" onclick="em2('[ef6a2]')">
+  <area shape="rect" coords="171,185 185,199" href="#" alt="桜" onMouseover="em('桜')" onmouseOut="em(' ')" onclick="em2('[ef6a3]')">
+  <area shape="rect" coords="185,185 199,199" href="#" alt="日の丸" onMouseover="em('日の丸')" onmouseOut="em(' ')" onclick="em2('[ef6a5]')">
+  <area shape="rect" coords="199,185 213,199" href="#" alt="ヤシの木" onMouseover="em('ヤシの木')" onmouseOut="em(' ')" onclick="em2('[ef6bb]')">
+  <area shape="rect" coords="213,185 227,199" href="#" alt="ひまわり" onMouseover="em('ひまわり')" onmouseOut="em(' ')" onclick="em2('[ef6bc]')">
+  <area shape="rect" coords="227,185 241,199" href="#" alt="スパーク" onMouseover="em('スパーク')" onmouseOut="em(' ')" onclick="em2('[ef651]')">
+  <area shape="rect" coords="241,185 255,199" href="#" alt="爆弾" onMouseover="em('爆弾')" onmouseOut="em(' ')" onclick="em2('[ef652]')">
+  <area shape="rect" coords="255,185 269,199" href="#" alt="炎" onMouseover="em('炎')" onmouseOut="em(' ')" onclick="em2('[ef653]')">
+  <area shape="rect" coords="269,185 283,199" href="#" alt="なると" onMouseover="em('なると')" onmouseOut="em(' ')" onclick="em2('[ef6c6]')">
+
+  <area shape="rect" coords="3,199 17,213" href="#" alt="花丸" onMouseover="em('花丸')" onmouseOut="em(' ')"  onclick="em2('[ef6c9]')">
+  <area shape="rect" coords="17,199 31,213" href="#" alt="秘" onMouseover="em('秘')" onmouseOut="em(' ')" onclick="em2('[ef6ca]')">
+  <area shape="rect" coords="31,199 45,213" href="#" alt="100点満点" onMouseover="em('100点満点')" onmouseOut="em(' ')" onclick="em2('[ef6cb]')">
+  <area shape="rect" coords="45,199 59,213" href="#" alt="ウンチ" onMouseover="em('ウンチ')" onmouseOut="em(' ')" onclick="em2('[ef6ce]')">
+  <area shape="rect" coords="59,199 73,213" href="#" alt="得" onMouseover="em('得')" onmouseOut="em(' ')" onclick="em2('[ef6d0]')">
+  <area shape="rect" coords="73,199 87,213" href="#" alt="どくろ" onMouseover="em('どくろ')" onmouseOut="em(' ')" onclick="em2('[ef6d1]')">
+  <area shape="rect" coords="87,199 101,213" href="#" alt="TV" onMouseover="em('TV')" onmouseOut="em(' ')" onclick="em2('[ef6db]')">
+  <area shape="rect" coords="101,199 115,213" href="#" alt="マイク" onMouseover="em('マイク')" onmouseOut="em(' ')" onclick="em2('[ef6dc]')">
+  <area shape="rect" coords="115,199 129,213" href="#" alt="財布" onMouseover="em('財布')" onmouseOut="em(' ')" onclick="em2('[ef6dd]')">
+  <area shape="rect" coords="129,199 143,213" href="#" alt="メロディ" onMouseover="em('メロディ')" onmouseOut="em(' ')" onclick="em2('[ef6de]')">
+  <area shape="rect" coords="143,199 157,213" href="#" alt="エレキギター" onMouseover="em('エレキギター')" onmouseOut="em(' ')" onclick="em2('[ef6df]')">
+  <area shape="rect" coords="157,199 171,213" href="#" alt="バイオリン" onMouseover="em('バイオリン')" onmouseOut="em(' ')" onclick="em2('[ef6e0]')">
+  <area shape="rect" coords="171,199 185,213" href="#" alt="ヘッドフォン" onMouseover="em('ヘッドフォン')" onmouseOut="em(' ')" onclick="em2('[ef6e1]')">
+  <area shape="rect" coords="185,199 199,213" href="#" alt="口紅" onMouseover="em('口紅')" onmouseOut="em(' ')" onclick="em2('[ef6e2]')">
+  <area shape="rect" coords="199,199 213,213" href="#" alt="ピストル" onMouseover="em('ピストル')" onmouseOut="em(' ')" onclick="em2('[ef6e3]')">
+  <area shape="rect" coords="213,199 227,213" href="#" alt="エステ" onMouseover="em('エステ')" onmouseOut="em(' ')" onclick="em2('[ef6e4]')">
+  <area shape="rect" coords="227,199 241,213" href="#" alt="EZマーク" onMouseover="em('EZマーク')" onmouseOut="em(' ')" onclick="em2('[ef794]')">
+  <area shape="rect" coords="241,199 255,213" href="#" alt="Free" onMouseover="em('Free')" onmouseOut="em(' ')" onclick="em2('[ef795]')">
+  <area shape="rect" coords="255,199 269,213" href="#" alt="CD/DVD" onMouseover="em('CD/DVD')" onmouseOut="em(' ')" onclick="em2('[ef6e5]')">
+  <area shape="rect" coords="269,199 283,213" href="#" alt="婦人服" onMouseover="em('婦人服')" onmouseOut="em(' ')" onclick="em2('[ef6e6]')">
+
+  <area shape="rect" coords="3,213 17,227" href="#" alt="UFO" onMouseover="em('UFO')" onmouseOut="em(' ')"  onclick="em2('[ef6e7]')">
+  <area shape="rect" coords="17,213 31,227" href="#" alt="注射" onMouseover="em('注射')" onmouseOut="em(' ')" onclick="em2('[ef6e9]')">
+  <area shape="rect" coords="31,213 45,227" href="#" alt="アート" onMouseover="em('アート')" onmouseOut="em(' ')" onclick="em2('[ef7b9]')">
+  <area shape="rect" coords="45,213 59,227" href="#" alt="演劇" onMouseover="em('演劇')" onmouseOut="em(' ')" onclick="em2('[ef7ba]')">
+  <area shape="rect" coords="59,213 73,227" href="#" alt="イベント" onMouseover="em('イベント')" onmouseOut="em(' ')" onclick="em2('[ef7bb]')">
+  <area shape="rect" coords="73,213 87,227" href="#" alt="リボン" onMouseover="em('リボン')" onmouseOut="em(' ')" onclick="em2('[ef7bc]')">
+  <area shape="rect" coords="87,213 101,227" href="#" alt="バースデー" onMouseover="em('バースデー')" onmouseOut="em(' ')" onclick="em2('[ef7bd]')">
+  <area shape="rect" coords="101,213 115,227" href="#" alt="ハート" onMouseover="em('ハート')" onmouseOut="em(' ')" onclick="em2('[ef7b2]')">
+  <area shape="rect" coords="115,213 129,227" href="#" alt="スペード" onMouseover="em('スペード')" onmouseOut="em(' ')" onclick="em2('[ef7be]')">
+  <area shape="rect" coords="129,213 143,227" href="#" alt="ダイヤ" onMouseover="em('ダイヤ')" onmouseOut="em(' ')" onclick="em2('[ef7bf]')">
+  <area shape="rect" coords="143,213 157,227" href="#" alt="クラブ" onMouseover="em('クラブ')" onmouseOut="em(' ')" onclick="em2('[ef7c0]')">
+  <area shape="rect" coords="157,213 171,227" href="#" alt="目" onMouseover="em('目')" onmouseOut="em(' ')" onclick="em2('[ef7c1]')">
+  <area shape="rect" coords="171,213 185,227" href="#" alt="耳" onMouseover="em('耳')" onmouseOut="em(' ')" onclick="em2('[ef7c2]')">
+  <area shape="rect" coords="185,213 199,227" href="#" alt="グー" onMouseover="em('グー')" onmouseOut="em(' ')" onclick="em2('[ef488]')">
+  <area shape="rect" coords="199,213 213,227" href="#" alt="チョキ" onMouseover="em('チョキ')" onmouseOut="em(' ')" onclick="em2('[ef7c3]')">
+  <area shape="rect" coords="213,213 227,227" href="#" alt="パー" onMouseover="em('パー')" onmouseOut="em(' ')" onclick="em2('[ef7c4]')">
+  <area shape="rect" coords="227,213 241,227" href="#" alt="イージープラス" onMouseover="em('イージープラス')" onmouseOut="em(' ')" onclick="em2('[ef7cf]')">
+  <area shape="rect" coords="241,213 255,227" href="#" alt="地球" onMouseover="em('地球')" onmouseOut="em(' ')" onclick="em2('[ef7d0]')">
+  <area shape="rect" coords="255,213 269,227" href="#" alt="食事" onMouseover="em('食事')" onmouseOut="em(' ')" onclick="em2('[ef69d]')">
+  <area shape="rect" coords="269,213 283,227" href="#" alt="スイカ" onMouseover="em('スイカ')" onmouseOut="em(' ')" onclick="em2('[ef6a6]')">
+
+  <area shape="rect" coords="3,227 17,241" href="#" alt="ケーキ" onMouseover="em('ケーキ')" onmouseOut="em(' ')"  onclick="em2('[ef6a9]')">
+  <area shape="rect" coords="17,227 31,241" href="#" alt="目玉焼" onMouseover="em('目玉焼')" onmouseOut="em(' ')" onclick="em2('[ef6aa]')">
+  <area shape="rect" coords="31,227 45,241" href="#" alt="さくらんぼ" onMouseover="em('さくらんぼ')" onmouseOut="em(' ')" onclick="em2('[ef6ab]')">
+  <area shape="rect" coords="45,227 59,241" href="#" alt="ふぐ" onMouseover="em('ふぐ')" onmouseOut="em(' ')" onclick="em2('[ef6ac]')">
+  <area shape="rect" coords="59,227 73,241" href="#" alt="いちご" onMouseover="em('いちご')" onmouseOut="em(' ')" onclick="em2('[ef6ad]')">
+  <area shape="rect" coords="73,227 87,241" href="#" alt="おにぎり" onMouseover="em('おにぎり')" onmouseOut="em(' ')" onclick="em2('[ef6ae]')">
+  <area shape="rect" coords="87,227 101,241" href="#" alt="ハンバーガー" onMouseover="em('ハンバーガー')" onmouseOut="em(' ')" onclick="em2('[ef6af]')">
+  <area shape="rect" coords="101,227 115,241" href="#" alt="ラーメン" onMouseover="em('ラーメン')" onmouseOut="em(' ')" onclick="em2('[ef7d1]')">
+  <area shape="rect" coords="115,227 129,241" href="#" alt="ワイン" onMouseover="em('ワイン')" onmouseOut="em(' ')" onclick="em2('[ef69a]')">
+  <area shape="rect" coords="129,227 143,241" href="#" alt="カクテル" onMouseover="em('カクテル')" onmouseOut="em(' ')" onclick="em2('[ef69b]')">
+  <area shape="rect" coords="143,227 157,241" href="#" alt="クリア" onMouseover="em('クリア')" onmouseOut="em(' ')" onclick="em2('[ef7c8]')">
+  <area shape="rect" coords="157,227 171,241" href="#" alt="決定" onMouseover="em('決定')" onmouseOut="em(' ')" onclick="em2('[ef7ca]')">
+  <area shape="rect" coords="171,227 185,241" href="#" alt="NEW" onMouseover="em('NEW')" onmouseOut="em(' ')" onclick="em2('[ef7e5]')">
+  <area shape="rect" coords="185,227 199,241" href="#" alt="UP!" onMouseover="em('UP!')" onmouseOut="em(' ')" onclick="em2('[ef6e8]')">
+  <area shape="rect" coords="199,227 213,241" href="#" alt="インフォメーションシンボル" onMouseover="em('インフォメーションシンボル')" onmouseOut="em(' ')" onclick="em2('[ef74f]')">
+</map>
+
+<table cellspacing="1" cellpadding="1" border="0">
+<tr>
+<form name="yomi"><td>読み<input type="text" size="18" name="yomi2">
+</td></form>
+<form name="moji"><td>絵文字<input type="text" size="8" name="moji2" onfocus="select()">
+</td></form>
+</tr>
+<tr><form>
+<td colspan="2" align="center">
+<input type=button value="閉じる" onClick="top.close();">
+</td></form></tr>
+</table>
+</div>
+<!--
+絵文字入力フォーム Ver2.01 by Tambo
+http://vvv.ciao.jp/yy/index.html
+//-->
+</body>
+</html>
