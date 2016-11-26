@@ -76,9 +76,7 @@ MAIL.<a href="mailto:missmrs@docomo.ne.jp">missmrs@docomo.ne.jp</a></p>
 </div>
 </div>
 
-<?php
-include 'footer.php';
-?>
+
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
