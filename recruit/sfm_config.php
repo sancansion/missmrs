@@ -9,7 +9,7 @@
 /* 基本設定 */
 
 // フォームデータを受け取るメールアドレス（$mailTo[0]は必須）
-$mailTo[0] = 'sancansion@gmail.com';
+$mailTo[0] = 'eltsac@docomo.ne.jp';
 $mailTo[1] = '';
 $mailTo[2] = '';
 
@@ -29,7 +29,7 @@ $mailBcc = '';
 $replyBcc = '';
 
 // 自動返信時の送信元メールアドレス
-$replyAddress = 'sancansion@gmail.com';
+$replyAddress = 'eltsac@docomo.ne.jp';
 
 // 自動返信時の送信元メールアドレスに付加する名前
 $replyName = 'トータルエステグループ';

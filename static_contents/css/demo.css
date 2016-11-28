@@ -162,7 +162,7 @@ body {width: 100%; float: left; opacity: 1; -webkit-transition: opacity 1s ease;
 /* Layout
 ***********************/
 #container {padding: 60px 40px 100px;}
-header {width: 420px; float: left;}
+
 #main {margin-left: 420px; margin-top: -25px;overflow: hidden;}
 aside h3 {float: left;}
 
@@ -171,7 +171,7 @@ aside h3 {float: left;}
 ***********************/
 @media screen and (max-width: 960px) {
   #container {padding: 35px;}
-  header {width: 380px;}
+ 
   #main {margin-left: 380px;}
   aside h3  {
   	float: none;
@@ -184,7 +184,6 @@ aside h3 {float: left;}
 }
 @media screen and (max-width: 768px) {
   #container {padding: 20px 30px;}
-  header {width: 100%; float: none; text-align: center;}
   header img  {width:120px;}
   header h1  { margin: 0 auto 10px; font-size: 32px; }
   header h2  { font-size: 16px; }

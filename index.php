@@ -10,14 +10,19 @@
 <title>ミスミセス | Miss.Mrs | 大阪 | メンズエステ | 天神橋六丁目 | 扇町 | 長堀橋 | 南森町 | 北浜</title>
 
 <link rel="SHORTCUT ICON" href="static_contents/img/favicon.ico">
+<!-- Demo CSS -->
+<link rel="stylesheet" href="static_contents/css/demo.css" type="text/css" media="screen" />
+
+<link rel="stylesheet" href="static_contents/css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="static_contents/css/bootstrap.css">
 
 
 <link rel="stylesheet" type="text/css" href="static_contents/css/index.css" media="screen and (min-width: 641px)">
 <link rel="stylesheet" type="text/css" href="static_contents/css/index-s.css" media="screen and (max-width: 640px)">
 
-<link rel="stylesheet" type="text/css" href="static_contents/css/common.css" media="screen and (min-width: 641px">
+<link rel="stylesheet" type="text/css" href="static_contents/css/common-p.css" media="screen and (min-width: 641px">
 <link rel="stylesheet" type="text/css" href="static_contents/css/common-s.css" media="screen and (max-width: 640px">
-
+<link rel="stylesheet" type="text/css" href="static_contents/css/common.css" media="">
 
 
 <link rel="apple-touch-icon" href="http://missmrs.biz/icon.png">
@@ -26,22 +31,32 @@
 <meta name="description" content="ミスミセス | 大阪 | メンズエステ | 天神橋六丁目 | 扇町 | 長堀橋 | 南森町 | 北浜">
 <link rel="canonical" href="http://missmrs.biz/">
 
-<!-- Demo CSS -->
-<link rel="stylesheet" href="static_contents/css/demo.css" type="text/css" media="screen" />
-
-<link rel="stylesheet" href="static_contents/css/flexslider.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="static_contents/css/bootstrap.css">
 
 <!-- <script type="text/javascript" src="./js/smartRollover.js"></script>
  -->
 </head>
 
 <body>
+
+
+	<!--START: header start -->
+	<header class="header">
+	<div class="header-left">left</div>
+		<div class="header-right">right</div>
+		<div class="header-left"></div>
+		
+	</header>
+	<!--START: header start -->
+
 	<!--START: wrapper -->
 	<div id="wrapper">
 
+
+
+
 		<!--START: head_p -->
 		<div class="head_p">
+
 			<article>
 				<div class="contents cf">
 
@@ -49,22 +64,23 @@
 					<div class="footerPop pc-none-sp-block">
 						<div class="footerInfoTellWrap">
 							<div class="footerInfoTell">
-								<a href="tel:090-3053-0184">
-									<div>
-										営業時間:11時～翌5時<br>（受付時間:11時～翌3時30分）
-									</div>
-								</a>
+
+								<div>
+									<a href="tel:090-3053-0184">ご予約</a>
+
+								</div>
+
 							</div>
 						</div>
 						<div class="blank_area"></div>
 						<div class="footer-recruit-tel">
 							<div>
-								<a href="http://missmrs.biz/recruit/"> セラピスト求人ページは <br> こちら
-								</a>
+								<a href="http://missmrs.biz/recruit/">セラピスト募集中 </a>
 							</div>
 						</div>
 					</div>
 					<!--END: sp footer-->
+
 				</div>
 			</article>
 		</div>
@@ -86,7 +102,7 @@
 						<li><a href="">TOP</a></li>
 						<li><a href="">セラピスト紹介</a></li>
 						<li><a href="">料金システム </a></li>
-						<li><a href="recruit/">求人情報 </a></li>
+						<li><a href="">求人情報 </a></li>
 
 						<li class=""><a href="http://missmrs.biz/" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 								店舗一覧<b class="caret"></b>
@@ -284,26 +300,30 @@
 
 	<!-- jQuery -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="static_contents/js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+	<script>
+		window.jQuery
+				|| document
+						.write('<script src="static_contents/js/libs/jquery-1.7.min.js">\x3C/script>')
+	</script>
 
 	<!-- FlexSlider -->
 	<script defer src="static_contents/js/jquery.flexslider.js"></script>
 
 	<script type="text/javascript">
-    $(function(){
-      SyntaxHighlighter.all();
-    });
-    $(window).load(function(){
-      $('.flexslider').flexslider({
-        animation: "slide",
-        slideshowSpeed: 2000,
-        animationSpeed: 300,
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
-      });
-    });
-  </script>
+		$(function() {
+			SyntaxHighlighter.all();
+		});
+		$(window).load(function() {
+			$('.flexslider').flexslider({
+				animation : "slide",
+				slideshowSpeed : 2000,
+				animationSpeed : 300,
+				start : function(slider) {
+					$('body').removeClass('loading');
+				}
+			});
+		});
+	</script>
 
 
 	<!-- Syntax Highlighter -->
@@ -315,9 +335,6 @@
 	<script src="static_contents/js/jquery.easing.js"></script>
 	<script src="static_contents/js/jquery.mousewheel.js"></script>
 	<script defer src="static_contents/js/demo.js"></script>
-
-
-
 	<script src="static_contents/js/bootstrap.min.js"></script>
 </body>
 </html>

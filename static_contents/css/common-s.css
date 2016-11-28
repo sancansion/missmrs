@@ -1,68 +1,72 @@
 @charset "utf-8";
 /* CSS Document */
-
-@import url("reset.css");/* ※RESET CSSのインポート */
+@import url("reset.css"); /* ※RESET CSSのインポート */
 body {
-	margin:0;
-	padding:0;/* for Opera8 */
-	background:#fff;
-	color:#333333;/* ※サイトにより変更 */
-	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Verdana, Arial, Helvetica, sans-serif;
-	font-size:14px;/* ※サイトにより変更　基本は12px */
-	line-height:1.6;/* ※サイトにより変更　基本は1.6 */
-	-webkit-text-size-adjust:100%;
+	margin: 0;
+	padding: 0; /* for Opera8 */
+	background: #fff;
+	color: #333333; /* ※サイトにより変更 */
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
+		"ＭＳ Ｐゴシック", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px; /* ※サイトにより変更　基本は12px */
+	line-height: 1.6; /* ※サイトにより変更　基本は1.6 */
+	-webkit-text-size-adjust: 100%;
 }
 
 ::selection {
- background:#F8CBD0;
- color:#fff;
+	background: #F8CBD0;
+	color: #fff;
 }
+
 ::-moz-selection {
- background:#F8CBD0;
- color:#fff;
+	background: #F8CBD0;
+	color: #fff;
 }
-* html body {/* for IE6 */
-	font-family:"ＭＳ Ｐゴシック", "メイリオ", Meiryo, Verdana, Arial, Helvetica, sans-serif;/* ※サイトにより変更 */
-	font-size:94%;/* ※サイトにより変更　12pxの場合は80％ */
+
+* html body { /* for IE6 */
+	font-family: "ＭＳ Ｐゴシック", "メイリオ", Meiryo, Verdana, Arial, Helvetica,
+		sans-serif; /* ※サイトにより変更 */
+	font-size: 94%; /* ※サイトにより変更　12pxの場合は80％ */
 }
-*:first-child+html body {/* for IE7 */
-	font-family:"ＭＳ Ｐゴシック", "メイリオ", Meiryo, Verdana, Arial, Helvetica, sans-serif;/* ※サイトにより変更 */
-	font-size:94%;/* ※サイトにより変更　12pxの場合は80％ */
-	cursor:default;
+
+*:first-child+html body { /* for IE7 */
+	font-family: "ＭＳ Ｐゴシック", "メイリオ", Meiryo, Verdana, Arial, Helvetica,
+		sans-serif; /* ※サイトにより変更 */
+	font-size: 94%; /* ※サイトにより変更　12pxの場合は80％ */
+	cursor: default;
 }
-body div {
+
+/* body div {
 	text-align: left;
 	margin: 0 auto;
 }
+ */
 h1 {
-	font-size:143%;/* ※サイトにより変更　例：143%（20px） */
+	font-size: 143%; /* ※サイトにより変更　例：143%（20px） */
 }
+
 h2 {
-	font-size:129%;/* ※サイトにより変更　例：129%（18px） */
+	font-size: 129%; /* ※サイトにより変更　例：129%（18px） */
 }
+
 h3 {
-	font-size:115%;/* ※サイトにより変更　例：115%（16px） */
+	font-size: 115%; /* ※サイトにより変更　例：115%（16px） */
 }
+
 html {
-	overflow-y:scroll;
-}/* サイドのスクロールバーを常に表示 */
+	overflow-y: scroll;
+} /* サイドのスクロールバーを常に表示 */
 img {
 	vertical-align: top;
 	max-width: 100%;
 	height: auto !important;
 }
 /* Android対策 */
-
-
 .disp-n {
-	display:none !important;
+	display: none !important;
 }
 /*	装飾（テキストへの装飾（色・文字サイズ）を記入）
 ================================================== */
-
-
-
-
 
 /*	リンク設定（※サイトにより変更）
 ================================================== */
@@ -70,166 +74,198 @@ a:link {
 	color: #666666;
 	text-decoration: none;
 }
+
 a:visited {
 	color: #666666;
 	text-decoration: none;
 }
+
 a:hover {
 	color: #999999;
 	text-decoration: none;
 }
+
 a:hover img {
-	filter: alpha(opacity=60);
-	-moz-opacity:0.60;
-	opacity:0.60;
-}/* 画像のロールオーバー時の設定　必要な場合のみ */
+	filter: alpha(opacity = 60);
+	-moz-opacity: 0.60;
+	opacity: 0.60;
+} /* 画像のロールオーバー時の設定　必要な場合のみ */
 /*	clearfix
 ================================================== */
-
 .cf:after {
-	content: ".";  /* 新しい要素を作る */
-	display: block;  /* ブロックレベル要素に */
+	content: "."; /* 新しい要素を作る */
+	display: block; /* ブロックレベル要素に */
 	clear: both;
 	height: 0;
 	visibility: hidden;
 }
+
 .cf {
 	min-height: 1px;
-	position:relative
+	position: relative
 }
+
 * html .cf {
-	height: 1px;/*¥*//*/
+	height: 1px; /*¥*/ /*/
   height: auto;
   overflow: hidden;
   /**/
 }
 /*	ページ整形（全頁に関わるCSSを記入）
 ================================================== */
-
 div#wrapper {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 }
+
 pcnonespblock_0812 {
-	display:block;
+	display: block;
 }
 /*	spヘッダー
 ================================================== */
+
+.navbar{
+	margin-top:20px;
+}
+
+header{
+	margin-bottom:30px;
+}
 .head_p section {
-	display:none;
+	display: none;
 }
+
 .head_p article {
-	background:#F9C;
-	font-size:10px;
-	line-height:30px;
-	height:30px;
-	color:#fff;
-	width:100%;
-	position:fixed;
-	bottom:0;
-	left:0;
-	z-index:9999;
+	background: #F9C;
+	font-size: 10px;
+	line-height: 30px;
+	height: 30px;
+	color: #fff;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
 }
-.head_p article div.contents {
-	width:100%;
-	margin:0 auto;
-}
+
+/* .head_p article div.contents {
+	width: 100%;
+	margin: 0 auto;
+} */
+
 .head_p article div.contents h1 {
-	display:none;
+	display: none;
 }
+
 .head_p article div.contents aside {
-	float:none;
-	text-align:left;
-	font-size:10px;
-	padding-left:6px;
+	float: none;
+	text-align: left;
+	font-size: 10px;
+	padding-left: 6px;
 }
+
 .head_p article div.contents aside span {
-	border:1px solid #fff;
-	margin-right:4px;
-	padding:2px 4px 2px 4px;
-	text-align:center;
+	border: 1px solid #fff;
+	margin-right: 4px;
+	padding: 2px 4px 2px 4px;
+	text-align: center;
 }
+
 .head_p article div.contents aside .tel_icon {
-	display:inline-block !important;
-	width:22px;
-	vertical-align:top;
-	padding-top:4px;
-	float:right;
-	padding-right:6px;
+	display: inline-block !important;
+	width: 22px;
+	vertical-align: top;
+	padding-top: 4px;
+	float: right;
+	padding-right: 6px;
 }
+
 .head_p article div.contents aside .tel_icon img.tel_icon_img {
-	display:inline-block !important;
-	width:22px;
-	vertical-align:top;
+	display: inline-block !important;
+	width: 22px;
+	vertical-align: top;
 }
+
 .head_p article div.contents aside img {
-	display:none;
+	display: none;
 }
+
 .head_p article div.contents aside em {
-	display:none;
+	display: none;
 }
+
 .head_sp {
-	width:100%;
-	position:fixed;
-	left:0;
-	top:0;
-	z-index:9998;
-	background:#fff;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9998;
+	background: #fff;
 }
+
 .head_sp figure {
-	text-align:center;
-	padding:15px 0;
+	text-align: center;
+	padding: 15px 0;
 }
+
 .head_sp figure:before {
 	content: ".";
 	color: transparent;
 }
+
 .head_sp figure img {
-	width:65px;
+	width: 65px;
 }
+
 .head_sp a.menu {
-	position:absolute;
-	left:15px;
-	top:15px;
-	width:28px;
-	height:28px;
-	display:block;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	width: 28px;
+	height: 28px;
+	display: block;
 }
+
 .head_sp a.menu img {
-	width:28px;
+	width: 28px;
 }
+
 .head_sp a.tel {
-	position:absolute;
-	right:15px;
-	top:15px;
-	width:32px;
-	height:32px;
-	display:block;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	width: 32px;
+	height: 32px;
+	display: block;
 }
+
 .head_sp a.tel img {
-	width:32px;
+	width: 32px;
 }
+
 nav#menu-l {
+	
 }
 /*	メインイメージ
 ================================================== */
-
 #index header {
-	width:100%;
+	width: 100%;
 }
+
 #index header section#mainimg {
-	width:100%;
-	min-height:100%;
+	width: 100%;
+	min-height: 100%;
 	position: relative;
-	margin:0 auto;
+	margin: 0 auto;
 }
+
 #index header section#mainimg ul {
-	width:100%;
-	min-height:100%;
-	position:absolute;
-	left:0;
-	top:0;
+	width: 100%;
+	min-height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
 }
 /*
 #index header section#mainimg ul li {
@@ -238,126 +274,154 @@ nav#menu-l {
 	display:inline;
 }
 */
-#index header section#mainimg ul li.fade01 {
-	background:url(../img/bg/mainimg01.jpg) no-repeat center center;
+/* #index header section#mainimg ul li.fade01 {
+	background: url(../img/bg/mainimg01.jpg) no-repeat center center;
 	background-size: cover;
 }
+
 #index header section#mainimg ul li.fade02 {
-	background:url(../img/bg/mainimg02.jpg) no-repeat center center;
+	background: url(../img/bg/mainimg02.jpg) no-repeat center center;
 	background-size: cover;
 }
+
 #index header section#mainimg ul li.fade03 {
-	background:url(../img/bg/mainimg03.jpg) no-repeat center center;
+	background: url(../img/bg/mainimg03.jpg) no-repeat center center;
 	background-size: cover;
 }
+
 #index header section#mainimg ul li.fade04 {
-	background:url(../img/bg/mainimg04.png) no-repeat center center;
+	background: url(../img/bg/mainimg04.png) no-repeat center center;
 	background-size: cover;
 }
+
 #index header section#mainimg ul li.fade05 {
-	background:url(../img/bg/mainimg05.png) no-repeat center center;
+	background: url(../img/bg/mainimg05.png) no-repeat center center;
 	background-size: cover;
 }
+
 #index header section p {
-	position:absolute;
-	left:50%;
-	top:50%;
-	margin-left:-145px;
-	margin-top:-81px;
-	max-width:290px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -145px;
+	margin-top: -81px;
+	max-width: 290px;
 }
+
 #index header section p img {
-	max-width:290px;
-}
+	max-width: 290px;
+} */
 /*	コンテンツ
 ================================================== */
-main {
-	display:block;
-	margin-bottom:30px;
-}
+/* main {
+	display: block;
+	margin-bottom: 30px;
+} */
 /*	ナビ
 ================================================== */
 
 /*	フッター
 ================================================== */
-
-
 .pagetop {
-	display:none;
+	display: none;
 }
+
 .pagetop img {
-	display:none;
+	display: none;
 }
+
 footer {
-	width:100%;
-	background:#fff;
-	border-top:1px solid #CCCCCC;
-	padding-top:20px;
-	padding-bottom:30px;
+	width: 100%;
+	background: #fff;
+	border-top: 1px solid #CCCCCC;
+	padding-top: 20px;
+	padding-bottom: 30px;
 }
+
 footer section {
-	position:relative;
+	position: relative;
 }
+
 footer section article.summary figure.snsShare {
-	margin:0 50px 15px 50px;
+	margin: 0 50px 15px 50px;
 }
+
 footer section article.summary figure.snsShare img {
-	width:100%;
+	width: 100%;
 }
+
 ul.mail {
-	position:absolute;
-	left:20px;
-	right:20px;
-	top:50%;
-	margin-top:-92px;
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	top: 50%;
+	margin-top: -92px;
 }
+
 ul.mail li {
-	display:block;
-	vertical-align:middle;
-	border:1px solid #999999;
-	padding:15px 0 15px 15px;
-	margin-bottom:6px;
+	display: block;
+	vertical-align: middle;
+	border: 1px solid #999999;
+	padding: 15px 0 15px 15px;
+	margin-bottom: 6px;
 }
+
 ul.mail li img {
-	width:144px;
+	width: 144px;
 }
+
 footer section article.summary figure.Logo {
-	width:237.5px;
-	margin:0 auto 10px auto;
-	text-align:center;
+	width: 237.5px;
+	margin: 0 auto 10px auto;
+	text-align: center;
 }
+
 footer section article.summary figure.Logo img {
-	width:237.5px;
+	width: 237.5px;
 }
+
 footer section article.summary nav {
-	display:none;
+	display: none;
 }
+
 footer section article.summary nav ul {
+	
 }
+
 footer section article.summary nav ul li {
+	
 }
+
 footer section article.summary div {
-	display:none;
+	display: none;
 }
+
 footer section article.summary div aside {
+	
 }
+
 footer section article.summary div aside img {
+	
 }
+
 footer section article.summary div aside em {
+	
 }
+
 footer section article.summary div aside span {
+	
 }
+
 footer section p.copyright {
-	font-size:11px;
-	padding:8px 0 8px 0;
-	text-align:center;
+	font-size: 11px;
+	padding: 8px 0 8px 0;
+	text-align: center;
 }
+
 .trademark_sp {
-	width:150px;
-	margin:0 auto;
+	width: 150px;
+	margin: 0 auto;
 }
-
-
 
 /*
  *  Remodal - v0.4.0
@@ -367,24 +431,23 @@ footer section p.copyright {
  *  Made by Ilya Makarov
  *  Under MIT License
  */
-@import url(http://fonts.googleapis.com/css?family=Exo+2:700,400&subset=latin,cyrillic);
+@import
+	url(http://fonts.googleapis.com/css?family=Exo+2:700,400&subset=latin,cyrillic)
+	;
 /* ==========================================================================
    Remodal necessary styles
    ========================================================================== */
 
 /* Hide scroll bar */
-
 html.remodal-is-locked, body.remodal-is-locked {
 	overflow: hidden;
 }
 
 /* Anti FOUC */
-
 .remodal, [data-remodal-id] {
- visibility: hidden;
+	visibility: hidden;
 }
 /* Necessary styles of the overlay */
-
 .remodal-overlay {
 	position: fixed;
 	z-index: 9999;
@@ -395,7 +458,6 @@ html.remodal-is-locked, body.remodal-is-locked {
 	display: none;
 }
 /* Necessary styles of the wrapper */
-
 .remodal-wrapper {
 	position: fixed;
 	z-index: 10000;
@@ -408,6 +470,7 @@ html.remodal-is-locked, body.remodal-is-locked {
 	text-align: center;
 	-webkit-overflow-scrolling: touch;
 }
+
 .remodal-wrapper:after {
 	display: inline-block;
 	height: 100%;
@@ -415,19 +478,17 @@ html.remodal-is-locked, body.remodal-is-locked {
 	content: "";
 }
 /* Fix iPad, iPhone glitches */
-
 .remodal-overlay, .remodal-wrapper {
 	-webkit-transform: translateZ(0px);
 }
 /* Necessary styles of the modal dialog */
-
 .remodal {
 	position: relative;
 	display: inline-block;
 }
 /* Anti-zoom. Font-size should be >= 16px. */
-
-.remodal select, .remodal textarea, .remodal input, .remodal select:focus, .remodal textarea:focus, .remodal input:focus {
+.remodal select, .remodal textarea, .remodal input, .remodal select:focus,
+	.remodal textarea:focus, .remodal input:focus {
 	font-size: 16px;
 }
 /* ==========================================================================
@@ -435,18 +496,17 @@ html.remodal-is-locked, body.remodal-is-locked {
    ========================================================================== */
 
 /* Default theme font */
-
 .remodal, .remodal * {
 	font-family: "Exo 2", sans-serif;
 }
 /* Background for effects */
-
 .remodal-bg {
 	-webkit-transition: -webkit-filter 0.2s ease-out;
 	-moz-transition: -moz-filter 0.2s ease-out;
 	-o-transition: -o-filter 0.2s ease-out;
 	transition: filter 0.2s ease-out;
 }
+
 body.remodal-is-active .remodal-bg {
 	-webkit-filter: blur(3px);
 	-ms-filter: blur(3px);
@@ -455,7 +515,6 @@ body.remodal-is-active .remodal-bg {
 	-o-filter: blur(3px);
 }
 /* Default theme styles of the overlay */
-
 .remodal-overlay {
 	-webkit-transition: opacity 0.2s ease-out;
 	-moz-transition: opacity 0.2s ease-out;
@@ -464,11 +523,11 @@ body.remodal-is-active .remodal-bg {
 	opacity: 0;
 	background: rgba(33, 36, 46, 0.95);
 }
+
 body.remodal-is-active .remodal-overlay {
 	opacity: 1;
 }
 /* Default theme styles of the modal dialog */
-
 .remodal {
 	font-size: 16px;
 	-webkit-box-sizing: border-box;
@@ -477,7 +536,8 @@ body.remodal-is-active .remodal-overlay {
 	width: 100%;
 	min-height: 100%;
 	padding: 35px;
-	-webkit-transition: -webkit-transform 0.2s ease-out, opacity 0.2s ease-out;
+	-webkit-transition: -webkit-transform 0.2s ease-out, opacity 0.2s
+		ease-out;
 	-moz-transition: -moz-transform 0.2s ease-out, opacity 0.2s ease-out;
 	-o-transition: -o-transform 0.2s ease-out, opacity 0.2s ease-out;
 	transition: transform 0.2s ease-out, opacity 0.2s ease-out;
@@ -491,6 +551,7 @@ body.remodal-is-active .remodal-overlay {
 	background: #f4f4f4;
 	background-clip: padding-box;
 }
+
 body.remodal-is-active .remodal {
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
@@ -500,19 +561,17 @@ body.remodal-is-active .remodal {
 	opacity: 1;
 }
 /* Vertical align of the modal dialog */
-
 .remodal, .remodal-wrapper:after {
 	vertical-align: middle;
 }
 /* Close button */
-
 .remodal-close {
 	position: absolute;
 	top: 5px;
 	left: 5px;
 	width: 28px;
 	height: 28px;
-	text-align:center;
+	text-align: center;
 	-webkit-transition: background 0.2s ease-out;
 	-moz-transition: background 0.2s ease-out;
 	-o-transition: background 0.2s ease-out;
@@ -521,8 +580,10 @@ body.remodal-is-active .remodal {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
+
 .remodal-close:after {
-	font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+	font-family: Arial, "Helvetica CY", "Nimbus Sans L",
+		sans-serif !important;
 	font-size: 28px;
 	line-height: 28px;
 	display: block;
@@ -535,14 +596,16 @@ body.remodal-is-active .remodal {
 	text-decoration: none;
 	color: #3e5368;
 }
+
 .remodal-close:hover, .remodal-close:active {
 	background: #3e5368;
 }
-.remodal-close:hover.remodal-close:after, .remodal-close:active.remodal-close:after {
+
+.remodal-close:hover.remodal-close:after, .remodal-close:active.remodal-close:after
+	{
 	color: #f4f4f4;
 }
 /* Dialog buttons */
-
 .remodal-confirm, .remodal-cancel {
 	font-size: 10pt;
 	display: inline-block;
@@ -560,168 +623,195 @@ body.remodal-is-active .remodal {
 	border-radius: 6px;
 	background-clip: padding-box;
 }
+
 .remodal-confirm {
 	color: #16a085;
 	border: 2px solid #16a085;
 	background: #f4f4f4;
 }
+
 .remodal-confirm:hover, .remodal-confirm:active {
 	color: #f4f4f4;
 	background: #16a085;
 }
+
 .remodal-cancel {
 	color: #c0392b;
 	border: 2px solid #c0392b;
 	background: #f4f4f4;
 }
+
 .remodal-cancel:hover, .remodal-cancel:active {
 	color: #f4f4f4;
 	background: #c0392b;
 }
+
 .bt01modal {
 	text-align: center;
 	font-size: 18px;
 	text-align: center;
 	color: #ffffff;
 	background: #B81C22;
-	width:150px;
+	width: 150px;
 	margin: 0 auto;
 	padding: 15px 0;
 	margin-top: 20px;
 }
+
 .passTxt {
 	margin-bottom: 20px;
 }
+
 .bt01modal a {
 	color: #fff;
 	text-decoration: none;
 	font-size: 18px;
 }
 
-
 /* Media queries
    ========================================================================== */
-
 @media only screen and (min-width: 40.063em) /* min-width 641px */ {
- .remodal {
- max-width: 700px;
- min-height: 0;
- margin: 20px auto;
- -webkit-border-radius: 6px;
- border-radius: 6px;
-}
+	.remodal {
+		max-width: 700px;
+		min-height: 0;
+		margin: 20px auto;
+		-webkit-border-radius: 6px;
+		border-radius: 6px;
+	}
 }
 /* IE8
    ========================================================================== */
-
 .lt-ie9 .remodal-overlay {
- filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F021242E, endColorstr=#F021242E);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F021242E,
+		endColorstr=#F021242E);
 }
+
 .lt-ie9 .remodal {
 	width: 700px;
 	min-height: 0;
 	margin: 20px auto;
 }
+
 .lt-ie9 .remodal-close:after {
 	margin: auto;
 	text-align: center;
 }
+
 .lt-ie9 .remodal-close:hover, .lt-ie9 .remodal-close:active {
 	background: transparent;
 }
-.lt-ie9 .remodal-close:hover.remodal-close:after, .lt-ie9 .remodal-close:active.remodal-close:after {
+
+.lt-ie9 .remodal-close:hover.remodal-close:after, .lt-ie9 .remodal-close:active.remodal-close:after
+	{
 	color: #3e5368;
 }
 /*------------ モーダル_sp----------------------------------------------
 -----------------------------------------------------------------*/
-	#modal-overlay {
-	z-index:1;
-	display:none;
-	position:fixed;
-	top:0;
-	left:0;
-	width:100%;
-	height:120%;
-	background-color:rgba(0, 0, 0, 0.75);
-	text-align:center;
-	padding-top:30%;
+#modal-overlay {
+	z-index: 1;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 120%;
+	background-color: rgba(0, 0, 0, 0.75);
+	text-align: center;
+	padding-top: 30%;
 }
+
 .modal-overlay_inner {
-	width:auto;
-	margin:0 auto;
-	position:relative;
+	width: auto;
+	margin: 0 auto;
+	position: relative;
 }
+
 .modal-overlay_inner div {
-	padding:0 10px;
+	padding: 0 10px;
 }
+
 .modal-overlay_inner .btn_modal_close {
-	position:absolute;
-	top:-20px;
-	right:0px;
-	width:20px;
+	position: absolute;
+	top: -20px;
+	right: 0px;
+	width: 20px;
 }
+
 .modal-overlay_inner .btn_modal_close .yes {
-	cursor:pointer;
+	cursor: pointer;
 }
+
 .modal_txt {
-	color:#fff;
-	font-size:16px;
-	margin-bottom:10px;
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 10px;
 }
+
 #modal-overlay dl {
-	margin-bottom:20px;
+	margin-bottom: 20px;
 }
+
 #modal-overlay dl dt {
-	color:#fff;
+	color: #fff;
 }
+
 #modal-overlay dl dd {
-	color:#fff;
+	color: #fff;
 }
 /* MT -> WP
    ========================================================================== */
 .archive-list {
 	margin-bottom: 30px;
 }
+
 .archive-list li a {
 	display: block;
 	background: #f9f9f9;
 	padding: 10px;
 	border-bottom: 1px dotted #999999;
 }
- .archive-list li:nth-child(2n) a {
- background: #ffffff;
+
+.archive-list li:nth-child(2n) a {
+	background: #ffffff;
 }
+
 .archive-list li dt {
 	font-size: 80%;
 }
+
 .wp-pagenavi {
 	text-align: center;
 	margin-bottom: 20px;
 }
+
 .wp-pagenavi a, .wp-pagenavi span {
 	background: #F9C;
 	border: none !important;
 	color: #ffffff;
 }
+
 .wp-pagenavi a:hover {
 	background: #CB7526;
 }
+
 .wp-pagenavi span.pages {
 	display: none;
 }
+
 .wp-pagenavi span.current {
 	background: #ffffff;
 	color: #F9C;
 	border: 1px solid #F9C;
 }
+
 .top_bnr_left {
-	margin-bottom:10px;
+	margin-bottom: 10px;
 }
 /*footerの追従info*/
-
 .pc-none-sp-block {
 	display: none;
 }
+
 .footerPop {
 	display: table !important;
 	padding: 5px;
@@ -731,28 +821,39 @@ body.remodal-is-active .remodal {
 	border: none;
 	width: 100%;
 }
+
 .footerInfoTellWrap {
+	height: 40px;
 	display: table-cell;
+	vertical-align: middle;
 	width: 50%;
 	border-radius: 3px;
-	text-align:center;
-	color:#FFF;
+	text-align: center;
+	color: #FFF;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#F9C+0,e7861a+99 */
 	background: #F9C; /* Old browsers */
-	background: -moz-linear-gradient(top, #F9C 0%, #F6C 99%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #F9C 0%, #F6C 99%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #F9C 0%, #F6C 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F9C', endColorstr='#e7861a', GradientType=0 ); /* IE6-9 */
+	background: -moz-linear-gradient(top, #F9C 0%, #F6C 99%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #F9C 0%, #F6C 99%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #F9C 0%, #F6C 99%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F9C',
+		endColorstr='#e7861a', GradientType=0); /* IE6-9 */
 }
+
 .blank_area {
 	width: 10px;
 }
+
 .footerInfoTellWrap div {
 	color: #fff;
 }
+
 .footerInfoTellWrap .footerPopTxt {
 	margin-bottom: 0;
 }
+
 .footerInfoTellWrap .footerInfoTell div {
 	text-decoration: none;
 	font-size: 11px;
@@ -761,14 +862,13 @@ body.remodal-is-active .remodal {
 	line-height: 1;
 	padding-left: 13px;
 	font-weight: bold;
-
 	margin: 0 auto;
 	color: #fff;
 }
-.footerInfoTellWrap .footerInfoTell div:before {
-	content:"";
 
-	background-size:9px;
+.footerInfoTellWrap .footerInfoTell div:before {
+	content: "";
+	background-size: 9px;
 	position: absolute;
 	width: 14px;
 	height: 20px;
@@ -776,12 +876,20 @@ body.remodal-is-active .remodal {
 	margin-top: -2px;
 	display: inline-block;
 }
+
 .footerInfoTell a {
 	padding: 5px 5px;
 	line-height: 1;
 	display: block;
 	text-decoration: none;
 }
+
+.footerInfoTell div a {
+	text-decoration: none;
+	color:#fff;
+	font-size:1.5em;
+}
+
 .footer-recruit-tel {
 	margin-left: 5px;
 	border: 2px solid #F9C;
@@ -790,30 +898,36 @@ body.remodal-is-active .remodal {
 	color: #F9C;
 	text-align: center;
 	display: table-cell;
+	vertical-align: middle;
 }
+
 .footer-recruit-tel div {
 	width: 100%;
 	box-sizing: border-box;
 	line-height: 1;
 	text-align: center;
 }
+
 .footer-recruit-tel div a {
 	display: block;
 	color: #F9C;
 	text-decoration: none;
-	font-size: 11px;
 	padding: 5px 1px;
 	font-weight: bold;
+	font-size:1.5em;
 }
+
 .footer-recruit-tel p {
 	font-size: 9px;
 	margin-bottom: 5px;
 }
+
 .footerPopTxt, .footerPopTxt span {
 	font-size: 9px !important;
 	font-weight: normal !important;
 	color: #fff;
 }
+
 .footerPop .footerPopTxt {
 	background: none;
 	box-sizing: border-box;
@@ -826,10 +940,12 @@ body.remodal-is-active .remodal {
 	vertical-align: middle;
 	display: block;
 }
+
 .head_p article {
 	height: auto;
 	background: #e8e6e3;
 }
+
 .head_p article div.contents aside {
 	display: none;
 }
