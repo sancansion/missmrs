@@ -142,28 +142,32 @@
 		<main id="top">
 		<section id="contents">
 
-			<!-- START : block-01 -->
-			<article class="block-01">
-				<div class="top-panel">
-					<ul>
-						<li>
-							<a href="http://missmrs.biz/recruit">
-								<img src="static_contents/photo/photo_18.png" alt="">
-							</a>
-						</li>
-						<li>
-							<a href="http://missmrs.biz/recruit">
-								<img src="static_contents/photo/photo_18.jpg" alt="">
-							</a>
-						</li>
-						<li>
-							<a href="http://osaka.refle.info/"><img width="300" height="60" border="0" src="http://osaka.refle.info/images/area/bunner200_2.gif" alt="人気のマッサージ店探すならリフナビ大阪"></a>
-						</li>
-					</ul>
-				</div>
-			</article>
-			<!-- END:block-01 -->
 
+            <!-- START : block-01 -->
+            <article class="block-01">
+                <div class="top-panel">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/MissMrs-747337258740161/?fref=hovercard">
+                                <img src="static_contents/img/facebook_300.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://missmrs.biz/recruit">
+                                <img src="static_contents/img/insta_300.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://osaka.refle.info/">
+                                <img width="300" height="60" border="0" src="http://osaka.refle.info/images/area/bunner200_2.gif"
+                                    alt="人気のマッサージ店探すならリフナビ大阪">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <!-- END:block-01 -->
+            
 			<!-- START :blog erea -->
 			<article class="block-04 cf">
 				<!-- START : left blog -->
@@ -247,9 +251,9 @@
 				</div>
 				<!-- END : right blog -->
 			</article>
-			<!-- START :blog erea -->
+			<!-- END :blog erea -->
 
-			<!-- START :blog erea -->
+			<!-- START :SNS erea -->
 			<article class="block-04 cf">
 				<!-- START : left blog -->
 				<div class="left">
@@ -269,7 +273,7 @@
 					<div class="block">
 						<h2>instagram</h2>
 						<div style="position: relative; height: 16px; width: 100%; overflow: hidden; padding-top: 100%;">
-							<iframe src="//widgets-code.websta.me/w/ff580437bd8e?ck=MjAxNi0xMi0wNFQwNjowMTo0NS45NDla" class="websta-widgets"
+							<iframe src="//widgets-code.websta.me/w/7001f4603d51?ck=MjAxNi0xMi0wNFQwNzowMTozOS4wMDBa" class="websta-widgets"
 								allowtransparency="true" frameborder="0" scrolling="no"
 								style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 							<!-- WEBSTA WIDGETS - widgets.websta.me -->
@@ -278,7 +282,8 @@
 				</div>
 				<!-- END : right blog -->
 			</article>
-			<!-- START :blog erea -->
+			<!-- START :SNS erea -->
+
 			<!-- START : block-01 -->
 			<article class="block-01">
 				<div class="top-panel">
