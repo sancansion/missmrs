@@ -15,8 +15,7 @@
 
 <link rel="stylesheet" href="static_contents/css/flexslider.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="static_contents/css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="static_contents/css/index.css" media="screen and (min-width: 641px)">
-<link rel="stylesheet" type="text/css" href="static_contents/css/index-s.css" media="screen and (max-width: 640px)">
+
 <link rel="stylesheet" type="text/css" href="static_contents/css/common-p.css" media="screen and (min-width: 641px">
 <link rel="stylesheet" type="text/css" href="static_contents/css/common-s.css" media="screen and (max-width: 640px">
 <link rel="stylesheet" type="text/css" href="static_contents/css/common.css" media="">
@@ -31,30 +30,58 @@
 <body>
 	<!--START: header start -->
 	<header class="header">
-		<div class="header-left">left</div>
-		<div class="header-right">right</div>
-		<div class="header-left"></div>
+		<div class="header-left dinplay-none-for-sp ">left</div>
+		<div class="header-right dinplay-none-for-sp ">right</div>
+		<!--START: menu-box-->
+		<div class="menu-box">
+			<div id="toggle">
+				<a href="http://js.crap.jp/book/chapter2/responsive-menu.html#">menu</a>
+			</div>
+			<ul id="menu" style="">
+				<li>
+					<a href="/index.php">TOP</a>
+				</li>
+				<li>
+					<a href="http://js.crap.jp/book/chapter2/responsive-menu.html#">セラピスト</a>
+				</li>
+				<li>
+					<a href="http://js.crap.jp/book/chapter2/responsive-menu.html#">出勤情報</a>
+				</li>
+				<li>
+					<a href="http://js.crap.jp/book/chapter2/responsive-menu.html#">料金システム</a>
+				</li>
+				<li>
+					<a href="http://js.crap.jp/book/chapter2/responsive-menu.html#">求人情報 </a>
+				</li>
+				<li>
+					<a href="http://js.crap.jp/book/chapter2/responsive-menu.html#">アクセス</a>
+				</li>
+				<li>
+					<a href="http://js.crap.jp/book/chapter2/responsive-menu.html#">ご予約</a>
+				</li>
+				<li>
+					<a href="http://js.crap.jp/book/chapter2/responsive-menu.html#">お問い合わせ</a>
+				</li>
+			</ul>
+		</div>
+		<!--END: menu-box-->
 	</header>
+
 	<!--START: header start -->
 
 	<!--START: wrapper -->
 	<div id="wrapper">
 		<!--START: head_p -->
 		<div class="head_p display-none-for-pc">
-
 			<article>
 				<div class="contents cf">
-
 					<!--START: sp footer-->
 					<div class="footerPop pc-none-sp-block">
 						<div class="footerInfoTellWrap">
 							<div class="footerInfoTell">
-
 								<div>
 									<a href="tel:090-3053-0184">ご予約</a>
-
 								</div>
-
 							</div>
 						</div>
 						<div class="blank_area"></div>
@@ -65,75 +92,11 @@
 						</div>
 					</div>
 					<!--END: sp footer-->
-
 				</div>
 			</article>
 		</div>
-		<!--END: head_p-->
+		<!--END: head_p -->
 
-		<!--START: head_sp -->
-		<div class="head_sp">
-			<!-- START : nav bar -->
-			<nav class="navbar navbar-inverse">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#patern05">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a href="http://missmrs.biz/" class="navbar-brand">Miss.Mrs</a>
-				</div>
-
-				<div id="patern05" class="collapse navbar-collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li>
-							<a href="">TOP</a>
-						</li>
-						<li>
-							<a href="">セラピスト紹介</a>
-						</li>
-						<li>
-							<a href="">料金システム </a>
-						</li>
-						<li>
-							<a href="">求人情報 </a>
-						</li>
-
-						<li class="">
-							<a href="http://missmrs.biz/" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-								店舗一覧<b class="caret"></b>
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="">南森町店</a>
-								</li>
-								<li>
-									<a href="">扇町店</a>
-								</li>
-								<li>
-									<a href="">天神橋六丁目店</a>
-								</li>
-								<li>
-									<a href="">長堀橋店</a>
-								</li>
-								<li>
-									<a href="">北浜店</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="">お問い合わせ</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-			<!-- END : nav bar -->
-		</div>
-		<!--END: head_sp -->
-
-
-
-		<!-- START : top -->
 		<!-- START: slider -->
 		<section class="slider">
 			<div class="flexslider">
@@ -158,7 +121,8 @@
 			</div>
 		</section>
 		<!-- END: slider -->
-
+		
+		<!-- START: top -->
 		<main id="top">
 		<section id="contents">
 			<!-- START :blog erea -->
@@ -288,7 +252,9 @@
 			</article>
 			<!-- END: block-03 -->
 		</section>
-		<!-- END: main --> </main>
+		</main>
+		<!-- END: main --> 
+		
 
 		<!-- START: footer -->
 		<footer>
@@ -376,4 +342,3 @@
 	<script src="static_contents/js/bootstrap.min.js"></script>
 </body>
 </html>
-

@@ -89,7 +89,7 @@ a:hover img {
   /**/
 }
 
-.disp-n {
+.dinplay-none-for-sp {
 	display: none !important;
 }
 /*	================================================== 
@@ -105,10 +105,10 @@ div#wrapper {
 header
 ================================================== */
 
-/* header{
-	margin-bottom:30px;
+.header{
+	margin-bottom:120px;
 }
- */
+
 .head_p section {
 	display: none;
 }
@@ -223,169 +223,190 @@ header
 /* ==================================================
 top
  ================================================== */
- #top{
-
+#top {
+	
 }
 
-
-#top .block-01 p.lead{
-    text-align:center;
-}
-#top .block-01 div{
-    text-align:left;
-    margin-top:20px;
-}
-#top .block-01 .top-panel{
-    text-align:center;
-}
-#top .block-01 .top-panel li{
-    margin-top:10px;
-}
-#top .block-01 div dl{
-    margin-bottom:10px;
-}
-#top .block-01 div dl:first-child{
-    padding-left:0px;
-}
-#top .block-01 div dl:last-child{
-    padding-right:0px;
-}
-#top .block-01 div dl dt{
-}
-#top .block-01 div dl dt img{
-    width:100%;
+#top .block-01 p.lead {
+	text-align: center;
 }
 
-#top .block-01 div dl dd{
+#top .block-01 div {
+	text-align: left;
+	margin-top: 20px;
 }
 
-#top .block-01 div dl dd h4{
-    margin-top:6px;
-    position:relative;
-    font-weight:bold;
-    font-size:18px;
-}
-#top .block-01 div dl dd h4 img{
-    position:absolute;
-    bottom:6px;
-    margin-left:6px;
-    width:15px;
-}
-#top .block-01 div dl dd p.cap{
-    font-size:13px;
-    margin-top:0;
+#top .block-01 .top-panel {
+	text-align: center;
 }
 
-#top .block-01 a.more{
-    display:block;
-    background:#fff;
-    border:2px solid #F9C;
-    color:#F9C;
-    vertical-align:middle;
-    font-size:14px;
-    padding:8px 8px;
-    margin:15px 40px 0 40px;
-    text-align:center;
-    border-radius: 6px; 
-    -webkit-border-radius: 6px;
+#top .block-01 .top-panel li {
+	margin-top: 10px;
 }
 
-#top .block-01 a.more:hover{
-    filter: alpha(opacity=60);
-    -moz-opacity:0.60;
-    opacity:0.60;
-}
-#top .block-01 a.more span{
-    -moz-transform: rotate(90deg) scale(0.7);
-    -webkit-transform: rotate(90deg) scale(0.7);
-    display:inline-block;
-    font-size:9px;
-    vertical-align:middle;
-    margin-left:4px;
+#top .block-01 div dl {
+	margin-bottom: 10px;
 }
 
-#top .bnBox{
-    position:relative;
-    text-align:center;
-    margin:0 auto 30px auto;
-}
-#top .bnBox .s_none{
-    display:none;
-}
-#top .bnBox .p_none img{
-    width:100%;
+#top .block-01 div dl:first-child {
+	padding-left: 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-#top .block-04{
-    position:relative;
-    margin:0 5px 30px 5px;
-}
-#top .block-04 h2{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size:28px;
-    padding-bottom:0px;
-    text-align:center;
-}
-#top .block-04 h2 span{
-    font-size:90%;
-}
-#top .block-04 .left{
-}
-#top .block-04 .right{
-}
-#top .block-04 .block{
-    position:relative;
-    margin-bottom:30px;
-}
-#top .block-04 .block dl{
-    width:100%;
-    font-size:11px;
-    display:table;
-    border-bottom:1px dotted #bbbbbb;
-    padding:7px 0;
-    margin-bottom:4px;
-}
-#top .block-04 .block dl dt{
-    width:35%;
-    display:table-cell;
-}
-#top .block-04 .block dl dd{
-    display:table-cell;
-}
-#top .block-04 a.more{
-    display:block;
-    background:#fff;
-    border:2px solid #F9C;
-    color:#F9C;
-    vertical-align:middle;
-    font-size:14px;
-    padding:8px 8px;
-    margin:15px 40px 0 40px;
-    text-align:center;
-    border-radius: 6px; 
-    -webkit-border-radius: 6px;
+#top .block-01 div dl:last-child {
+	padding-right: 0px;
 }
 
-#top .block-04 a.more span{
-    -moz-transform: rotate(90deg) scale(0.7);
-    -webkit-transform: rotate(90deg) scale(0.7);
-    display:inline-block;
-    font-size:9px;
-    vertical-align:middle;
-    margin-left:4px;
+#top .block-01 div dl dt {
+	
 }
- 
+
+#top .block-01 div dl dt img {
+	width: 100%;
+}
+
+#top .block-01 div dl dd {
+	
+}
+
+#top .block-01 div dl dd h4 {
+	margin-top: 6px;
+	position: relative;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#top .block-01 div dl dd h4 img {
+	position: absolute;
+	bottom: 6px;
+	margin-left: 6px;
+	width: 15px;
+}
+
+#top .block-01 div dl dd p.cap {
+	font-size: 13px;
+	margin-top: 0;
+}
+
+#top .block-01 a.more {
+	display: block;
+	background: #fff;
+	border: 2px solid #F9C;
+	color: #F9C;
+	vertical-align: middle;
+	font-size: 14px;
+	padding: 8px 8px;
+	margin: 15px 40px 0 40px;
+	text-align: center;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+#top .block-01 a.more:hover {
+	filter: alpha(opacity = 60);
+	-moz-opacity: 0.60;
+	opacity: 0.60;
+}
+
+#top .block-01 a.more span {
+	-moz-transform: rotate(90deg) scale(0.7);
+	-webkit-transform: rotate(90deg) scale(0.7);
+	display: inline-block;
+	font-size: 9px;
+	vertical-align: middle;
+	margin-left: 4px;
+}
+
+#top .bnBox {
+	position: relative;
+	text-align: center;
+	margin: 0 auto 30px auto;
+}
+
+#top .bnBox .s_none {
+	display: none;
+}
+
+#top .bnBox .p_none img {
+	width: 100%;
+}
+
+#top .block-04 {
+	position: relative;
+	margin: 0 5px 30px 5px;
+}
+
+#top .block-04 h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 28px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+#top .block-04 h2 span {
+	font-size: 90%;
+}
+
+#top .block-04 .left {
+	
+}
+
+#top .block-04 .right {
+	
+}
+
+#top .block-04 .block {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+#top .block-04 .block dl {
+	width: 100%;
+	font-size: 11px;
+	display: table;
+	border-bottom: 1px dotted #bbbbbb;
+	padding: 7px 0;
+	margin-bottom: 4px;
+}
+
+#top .block-04 .block dl dt {
+	width: 35%;
+	display: table-cell;
+}
+
+#top .block-04 .block dl dd {
+	display: table-cell;
+}
+
+#top .block-04 a.more {
+	display: block;
+	background: #fff;
+	border: 2px solid #F9C;
+	color: #F9C;
+	vertical-align: middle;
+	font-size: 14px;
+	padding: 8px 8px;
+	margin: 15px 40px 0 40px;
+	text-align: center;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+#top .block-04 a.more span {
+	-moz-transform: rotate(90deg) scale(0.7);
+	-webkit-transform: rotate(90deg) scale(0.7);
+	display: inline-block;
+	font-size: 9px;
+	vertical-align: middle;
+	margin-left: 4px;
+}
+
+/*  ==================================================
+slider
+================================================== */
+.slider {
+	margin-top:100px;
+	
+}
 
 /*	==================================================
 footer
