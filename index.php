@@ -141,6 +141,29 @@
 		<!-- START: top -->
 		<main id="top">
 		<section id="contents">
+
+			<!-- START : block-01 -->
+			<article class="block-01">
+				<div class="top-panel">
+					<ul>
+						<li>
+							<a href="http://missmrs.biz/recruit">
+								<img src="static_contents/photo/photo_18.png" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="http://missmrs.biz/recruit">
+								<img src="static_contents/photo/photo_18.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="http://osaka.refle.info/"><img width="300" height="60" border="0" src="http://osaka.refle.info/images/area/bunner200_2.gif" alt="人気のマッサージ店探すならリフナビ大阪"></a>
+						</li>
+					</ul>
+				</div>
+			</article>
+			<!-- END:block-01 -->
+
 			<!-- START :blog erea -->
 			<article class="block-04 cf">
 				<!-- START : left blog -->
@@ -299,7 +322,6 @@
 		</section>
 		</main>
 		<!-- END: main -->
-
 
 		<!-- START: footer -->
 		<footer>
