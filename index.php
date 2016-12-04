@@ -20,7 +20,10 @@
 <link rel="stylesheet" type="text/css" href="static_contents/css/common-p.css" media="screen and (min-width: 641px">
 <link rel="stylesheet" type="text/css" href="static_contents/css/common-s.css" media="screen and (max-width: 640px">
 <link rel="stylesheet" type="text/css" href="static_contents/css/common.css" media="">
+<link rel="stylesheet" type="text/css" href="static_contents/css/navigation.css" media="">
+
 <link rel="apple-touch-icon" href="http://missmrs.biz/icon.png">
+
 <meta name="description" content="ミスミセス | 大阪 | メンズエステ | 天神橋六丁目 | 扇町 | 長堀橋 | 南森町 | 北浜">
 <link rel="canonical" href="http://missmrs.biz/">
 
@@ -37,7 +40,7 @@
 	<!--START: wrapper -->
 	<div id="wrapper">
 		<!--START: head_p -->
-		<div class="head_p">
+		<div class="head_p display-none-for-pc">
 
 			<article>
 				<div class="contents cf">
@@ -268,9 +271,8 @@
 			</article>
 			<!-- END:block-01 -->
 			<!-- START: block-03 -->
-			<article class="block-03 cf">
+			<article class="block-03 cf ">
 				<div class="top_bnr_area">
-
 					<div class="top_bnr_left">
 						<a href="http://missmrs.biz/recruit"></a>
 						<a href="http://otonaspa-osaka.com/" target="_blank">
