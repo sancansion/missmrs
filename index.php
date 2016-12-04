@@ -15,45 +15,27 @@
 
 <link rel="stylesheet" href="static_contents/css/flexslider.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="static_contents/css/bootstrap.css">
-
-
 <link rel="stylesheet" type="text/css" href="static_contents/css/index.css" media="screen and (min-width: 641px)">
 <link rel="stylesheet" type="text/css" href="static_contents/css/index-s.css" media="screen and (max-width: 640px)">
-
 <link rel="stylesheet" type="text/css" href="static_contents/css/common-p.css" media="screen and (min-width: 641px">
 <link rel="stylesheet" type="text/css" href="static_contents/css/common-s.css" media="screen and (max-width: 640px">
 <link rel="stylesheet" type="text/css" href="static_contents/css/common.css" media="">
-
-
 <link rel="apple-touch-icon" href="http://missmrs.biz/icon.png">
-
-
 <meta name="description" content="ミスミセス | 大阪 | メンズエステ | 天神橋六丁目 | 扇町 | 長堀橋 | 南森町 | 北浜">
 <link rel="canonical" href="http://missmrs.biz/">
 
-
-<!-- <script type="text/javascript" src="./js/smartRollover.js"></script>
- -->
 </head>
-
 <body>
-
-
 	<!--START: header start -->
 	<header class="header">
-	<div class="header-left">left</div>
+		<div class="header-left">left</div>
 		<div class="header-right">right</div>
 		<div class="header-left"></div>
-		
 	</header>
 	<!--START: header start -->
 
 	<!--START: wrapper -->
 	<div id="wrapper">
-
-
-
-
 		<!--START: head_p -->
 		<div class="head_p">
 
@@ -92,29 +74,53 @@
 			<nav class="navbar navbar-inverse">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#patern05">
-						<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
 					</button>
 					<a href="http://missmrs.biz/" class="navbar-brand">Miss.Mrs</a>
 				</div>
 
 				<div id="patern05" class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="">TOP</a></li>
-						<li><a href="">セラピスト紹介</a></li>
-						<li><a href="">料金システム </a></li>
-						<li><a href="">求人情報 </a></li>
+						<li>
+							<a href="">TOP</a>
+						</li>
+						<li>
+							<a href="">セラピスト紹介</a>
+						</li>
+						<li>
+							<a href="">料金システム </a>
+						</li>
+						<li>
+							<a href="">求人情報 </a>
+						</li>
 
-						<li class=""><a href="http://missmrs.biz/" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+						<li class="">
+							<a href="http://missmrs.biz/" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 								店舗一覧<b class="caret"></b>
-						</a>
+							</a>
 							<ul class="dropdown-menu">
-								<li><a href="">南森町店</a></li>
-								<li><a href="">扇町店</a></li>
-								<li><a href="">天神橋六丁目店</a></li>
-								<li><a href="">長堀橋店</a></li>
-								<li><a href="">北浜店</a></li>
-							</ul></li>
-						<li><a href="">お問い合わせ</a></li>
+								<li>
+									<a href="">南森町店</a>
+								</li>
+								<li>
+									<a href="">扇町店</a>
+								</li>
+								<li>
+									<a href="">天神橋六丁目店</a>
+								</li>
+								<li>
+									<a href="">長堀橋店</a>
+								</li>
+								<li>
+									<a href="">北浜店</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="">お問い合わせ</a>
+						</li>
 					</ul>
 				</div>
 			</nav>
@@ -125,40 +131,39 @@
 
 
 		<!-- START : top -->
-		<!-- START: main -->
-
+		<!-- START: slider -->
 		<section class="slider">
 			<div class="flexslider">
 				<ul class="slides">
-					<li><img src="static_contents/photo/photo_01.png" />
-						<p class="flex-caption">MissMrs(ミスミセス)大阪.南森町.天満.扇町.天六.長堀橋のメンズエステ</p></li>
-					<li><img src="static_contents/photo/photo_02.png" />
-						<p class="flex-caption">優しい会話と心のこもったマッサージで極上の癒しをお楽しみ下さい。</p></li>
-					<li><img src="static_contents/photo/photo_03.png" />
-						<p class="flex-caption">ご質問等あれば.電話.メール.ラインなどでお気軽にお問い合わせ下さい。</p></li>
-					<li><img src="static_contents/photo/photo_22.jpg" />
-						<p class="flex-caption">☆多忙の為セラピスト大募集☆ 安心の働きやすさ</p></li>
+					<li>
+						<img src="static_contents/photo/photo_01.png" />
+						<p class="flex-caption">MissMrs(ミスミセス)大阪.南森町.天満.扇町.天六.長堀橋のメンズエステ</p>
+					</li>
+					<li>
+						<img src="static_contents/photo/photo_02.png" />
+						<p class="flex-caption">優しい会話と心のこもったマッサージで極上の癒しをお楽しみ下さい。</p>
+					</li>
+					<li>
+						<img src="static_contents/photo/photo_03.png" />
+						<p class="flex-caption">ご質問等あれば.電話.メール.ラインなどでお気軽にお問い合わせ下さい。</p>
+					</li>
+					<li>
+						<img src="static_contents/photo/photo_22.jpg" />
+						<p class="flex-caption">☆多忙の為セラピスト大募集☆ 安心の働きやすさ</p>
+					</li>
 				</ul>
 			</div>
 		</section>
-
-
-
-
-
-
-
+		<!-- END: slider -->
 
 		<main id="top">
 		<section id="contents">
 			<!-- START :blog erea -->
 			<article class="block-04 cf">
-
 				<!-- START : left blog -->
 				<div class="left">
 					<div class="block">
 						<h2>Mrs.Miss Blog</h2>
-
 						<?php
 								// モジュールを読み込む
 								require_once("./magpierss/rss_fetch.inc");
@@ -191,7 +196,9 @@
                        			 ?>
 
 
-						<a href="http://blog.livedoor.jp/missmrs02/" target="_blank" class="more"> Mrs.Miss Blogはこちら <span>▲</span>
+						<a href="http://blog.livedoor.jp/missmrs02/" target="_blank" class="more">
+							Mrs.Miss Blogはこちら
+							<span>▲</span>
 						</a>
 					</div>
 				</div>
@@ -209,7 +216,7 @@
 						// RSSは$rss->itemという変数に入る。
 						// key値、link/title/descriptionで取得できる。
 						$rss = fetch_rss( $url );
-						//var_dump ($rss);
+						//var_dump ($rss)more;
 						$max_lines = 10;
 						$line = 0;
 						//echo "". mb_convert_encoding($rss->channel['title'],"UTF-8","auto");
@@ -226,7 +233,9 @@
 						}
 						?>
 
-						<a href="http://missmrs01.blog.fc2.com/" target="_blank" class="more"> 出勤情報Blogはこちら <span>▲</span>
+						<a href="http://missmrs01.blog.fc2.com/" target="_blank" class="more">
+							出勤情報Blogはこちら
+							<span>▲</span>
 						</a>
 					</div>
 				</div>
@@ -239,12 +248,21 @@
 			<article class="block-01">
 				<div class="top-panel">
 					<ul>
-						<li><a href="http://missmrs.biz/recruit"> <img src="static_contents/photo/photo_18.png" alt="">
-						</a></li>
-						<li><a href="http://missmrs.biz/recruit"> <img src="static_contents/photo/photo_18.jpg" alt="">
-						</a></li>
-						<li><a href="http://missmrs.biz/recruit"> <img src="static_contents/photo/photo_20.jpg" alt="">
-						</a></li>
+						<li>
+							<a href="http://missmrs.biz/recruit">
+								<img src="static_contents/photo/photo_18.png" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="http://missmrs.biz/recruit">
+								<img src="static_contents/photo/photo_18.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="http://missmrs.biz/recruit">
+								<img src="static_contents/photo/photo_20.jpg" alt="">
+							</a>
+						</li>
 					</ul>
 				</div>
 			</article>
@@ -254,12 +272,14 @@
 				<div class="top_bnr_area">
 
 					<div class="top_bnr_left">
-						<a href="http://missmrs.biz/recruit"></a> <a href="http://otonaspa-osaka.com/" target="_blank"> <img
-							src="static_contents/img/lineme.png" alt="LINEでのお問い合わせ・ご予約はこちらから">
+						<a href="http://missmrs.biz/recruit"></a>
+						<a href="http://otonaspa-osaka.com/" target="_blank">
+							<img src="static_contents/img/lineme.png" alt="LINEでのお問い合わせ・ご予約はこちらから">
 						</a>
 					</div>
 					<div class="top_bnr_right">
-						<a href="http://missmrs.biz/recruit"> <img src="static_contents/photo/photo_3.png" alt="セラピスト募集">
+						<a href="http://missmrs.biz/recruit">
+							<img src="static_contents/photo/photo_3.png" alt="セラピスト募集">
 						</a>
 					</div>
 				</div>
@@ -274,18 +294,34 @@
 				<article class="summary">
 					<nav>
 						<ul>
-							<li><a href="http://missmrs.biz/">TOP</a></li>
-							<li><a href="http://missmrs.biz/concept/">セラピスト紹介</a></li>
-							<li><a href="http://missmrs.biz/howto/">出勤情報</a></li>
-							<li><a href="http://missmrs.biz/menu/">料金システム</a></li>
-							<li><a href="http://missmrs.biz/recruit/">求人情報</a></li>
-							<li><a href="http://missmrs.biz/access/">アクセス</a></li>
-							<li><a href="http://missmrs.biz/contact/">お問い合わせ</a></li>
+							<li>
+								<a href="http://missmrs.biz/">TOP</a>
+							</li>
+							<li>
+								<a href="http://missmrs.biz/concept/">セラピスト紹介</a>
+							</li>
+							<li>
+								<a href="http://missmrs.biz/howto/">出勤情報</a>
+							</li>
+							<li>
+								<a href="http://missmrs.biz/menu/">料金システム</a>
+							</li>
+							<li>
+								<a href="http://missmrs.biz/recruit/">求人情報</a>
+							</li>
+							<li>
+								<a href="http://missmrs.biz/access/">アクセス</a>
+							</li>
+							<li>
+								<a href="http://missmrs.biz/contact/">お問い合わせ</a>
+							</li>
 						</ul>
 					</nav>
 					<div>
 						<aside>
-							<img src="static_contents/img/tel.png"> <em>090-3053-0184</em> <span>営業時間:11時～翌5時（受付時間:11時～翌3時30分）</span>
+							<img src="static_contents/img/tel.png">
+							<em>090-3053-0184</em>
+							<span>営業時間:11時～翌5時（受付時間:11時～翌3時30分）</span>
 						</aside>
 					</div>
 				</article>
