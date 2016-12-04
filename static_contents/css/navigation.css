@@ -15,7 +15,16 @@
 #menu li a {
 	display: block;
 	padding: 12px 0 10px;
-	background: #F9C;
+	   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#F9C+0,e7861a+99 */
+    background: #F9C; /* Old browsers */
+    background: -moz-linear-gradient(top, #F9C 0%, #F6C 99%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #F9C 0%, #F6C 99%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #F9C 0%, #F6C 99%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F9C',
+        endColorstr='#e7861a', GradientType=0); /* IE6-9 */
 	color: #ffffff;
 	text-align: center;
 	text-decoration: none;

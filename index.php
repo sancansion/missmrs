@@ -28,6 +28,20 @@
 
 </head>
 <body>
+	<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id))
+				return;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.8";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+
 	<!--START: header start -->
 	<header class="header">
 		<div class="header-left dinplay-none-for-sp ">left</div>
@@ -121,7 +135,9 @@
 			</div>
 		</section>
 		<!-- END: slider -->
-		
+
+
+
 		<!-- START: top -->
 		<main id="top">
 		<section id="contents">
@@ -210,7 +226,36 @@
 			</article>
 			<!-- START :blog erea -->
 
-
+			<!-- START :blog erea -->
+			<article class="block-04 cf">
+				<!-- START : left blog -->
+				<div class="left">
+					<div class="block">
+						<h2>facebook</h2>
+						<div class="fb-page" data-href="https://www.facebook.com/MissMrs-747337258740161/" data-tabs="timeline"
+							data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+							<blockquote cite="https://www.facebook.com/MissMrs-747337258740161/" class="fb-xfbml-parse-ignore">
+								<a href="https://www.facebook.com/MissMrs-747337258740161/">Miss.Mrs</a>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+				<!-- END : left blog -->
+				<!-- START : right blog -->
+				<div class="right">
+					<div class="block">
+						<h2>instagram</h2>
+						<div style="position: relative; height: 16px; width: 100%; overflow: hidden; padding-top: 100%;">
+							<iframe src="//widgets-code.websta.me/w/ff580437bd8e?ck=MjAxNi0xMi0wNFQwNjowMTo0NS45NDla" class="websta-widgets"
+								allowtransparency="true" frameborder="0" scrolling="no"
+								style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+							<!-- WEBSTA WIDGETS - widgets.websta.me -->
+						</div>
+					</div>
+				</div>
+				<!-- END : right blog -->
+			</article>
+			<!-- START :blog erea -->
 			<!-- START : block-01 -->
 			<article class="block-01">
 				<div class="top-panel">
@@ -253,8 +298,8 @@
 			<!-- END: block-03 -->
 		</section>
 		</main>
-		<!-- END: main --> 
-		
+		<!-- END: main -->
+
 
 		<!-- START: footer -->
 		<footer>
