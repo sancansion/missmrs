@@ -104,9 +104,8 @@ div#wrapper {
 /*	================================================== 
 header
 ================================================== */
-
-.header{
-	margin-bottom:120px;
+.header {
+	margin-bottom: 120px;
 }
 
 .head_p section {
@@ -218,6 +217,12 @@ header
 
 .head_sp a.tel img {
 	width: 32px;
+}
+/* ==================================================
+slider
+ ================================================== */
+.slider {
+	margin: 50px 0 10px !important;
 }
 
 /* ==================================================
@@ -404,8 +409,7 @@ top
 slider
 ================================================== */
 .slider {
-	margin-top:100px;
-	
+	margin-top: 100px;
 }
 
 /*	==================================================
@@ -457,6 +461,10 @@ footer section p.copyright {
 
 .top_bnr_left {
 	margin-bottom: 10px;
+}
+
+.top_bnr_right {
+    margin-bottom: 10px;
 }
 /*footerの追従info*/
 .pc-none-sp-block {

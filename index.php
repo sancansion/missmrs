@@ -141,33 +141,46 @@
 		<!-- START: top -->
 		<main id="top">
 		<section id="contents">
-
-
-            <!-- START : block-01 -->
-            <article class="block-01">
-                <div class="top-panel">
-                    <ul>
-                        <li>
-                            <a href="https://www.facebook.com/MissMrs-747337258740161/?fref=hovercard">
-                                <img src="static_contents/img/facebook_300.jpg" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://missmrs.biz/recruit">
-                                <img src="static_contents/img/insta_300.jpg" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://osaka.refle.info/">
-                                <img width="300" height="60" border="0" src="http://osaka.refle.info/images/area/bunner200_2.gif"
-                                    alt="人気のマッサージ店探すならリフナビ大阪">
-                            </a>
-                        </li>
-                    </ul>
+			<!-- START: block-03 -->
+			<article class="block-03 cf ">
+				<div class="top_bnr_area">
+					<div class="top_bnr_left">
+						<a href="http://missmrs.biz/recruit"></a>
+						<a href="http://otonaspa-osaka.com/" target="_blank">
+							<img src="static_contents/img/lineme.png" alt="LINEでのお問い合わせ・ご予約はこちらから">
+						</a>
+					</div>
+					<div class="top_bnr_right">
+						<a href="http://missmrs.biz/recruit">
+							<img src="static_contents/photo/photo_3.png" alt="セラピスト募集">
+						</a>
+					</div>
+				</div>
+			</article>
+			<!-- END: block-03 -->
+			
+			     <!-- START: top -->
+        <main id="top">
+        <section id="contents">
+            <!-- START: block-03 -->
+            <article class="block-03 cf ">
+                <div class="top_bnr_area">
+                    <div class="top_bnr_left">
+                        <a href="http://missmrs.biz/recruit"></a>
+                        <a href="http://otonaspa-osaka.com/" target="_blank">
+                            <img src="static_contents/img/tel.jpg" alt="LINEでのお問い合わせ・ご予約はこちらから">
+                        </a>
+                    </div>
+                    <div class="top_bnr_right">
+                        <a href="http://missmrs.biz/recruit">
+                            <img src="static_contents/img/mail.jpg" alt="セラピスト募集">
+                        </a>
+                    </div>
                 </div>
             </article>
-            <!-- END:block-01 -->
-            
+            <!-- END: block-03 -->
+
+
 			<!-- START :blog erea -->
 			<article class="block-04 cf">
 				<!-- START : left blog -->
@@ -290,7 +303,7 @@
 					<ul>
 						<li>
 							<a href="http://missmrs.biz/recruit">
-								<img src="static_contents/photo/photo_18.png" alt="">
+								<img src="static_contents/photo/photo_18.png" alt="セラピスト募集">
 							</a>
 						</li>
 						<li>
@@ -307,23 +320,35 @@
 				</div>
 			</article>
 			<!-- END:block-01 -->
-			<!-- START: block-03 -->
-			<article class="block-03 cf ">
-				<div class="top_bnr_area">
-					<div class="top_bnr_left">
-						<a href="http://missmrs.biz/recruit"></a>
-						<a href="http://otonaspa-osaka.com/" target="_blank">
-							<img src="static_contents/img/lineme.png" alt="LINEでのお問い合わせ・ご予約はこちらから">
-						</a>
-					</div>
-					<div class="top_bnr_right">
-						<a href="http://missmrs.biz/recruit">
-							<img src="static_contents/photo/photo_3.png" alt="セラピスト募集">
-						</a>
-					</div>
+
+
+			<!-- START : block-01 -->
+			<article class="block-01">
+				<div class="top-panel">
+					<ul>
+						<li>
+							<a href="https://www.facebook.com/MissMrs-747337258740161/?fref=hovercard">
+								<img src="static_contents/img/facebook_300.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="http://missmrs.biz/recruit">
+								<img src="static_contents/img/insta_300.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="http://osaka.refle.info/">
+								<img width="300" height="60" border="0" src="http://osaka.refle.info/images/area/bunner200_2.gif"
+									alt="人気のマッサージ店探すならリフナビ大阪">
+							</a>
+						</li>
+					</ul>
 				</div>
 			</article>
-			<!-- END: block-03 -->
+			<!-- END:block-01 -->
+
+
+
 		</section>
 		</main>
 		<!-- END: main -->
